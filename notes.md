@@ -1,26 +1,11 @@
 - \*TODO:
-
-1. ADD SNAP TO SECTIONS
-
-2. DESIGNS COMP- - a. create slider
-
-3. SERVICES COMP- figure out lists --IP
-
-- a. use checkmark list format??
-
-4. Contact- add design form --IP
-
-- a.implement functionality
-
-5. implement FAQ comp
-
 - \***\*CURRENTLY: \*\***
   _3. IMPLEMENT PKG COMP/ PG_
   _2. CHANGE HEADER LINK-_
   _4-IMP PKGS RATE DYNAMIC COMP-_
   _5-MKDIR PKGS PG-, IMPLEMENT COMP_
 
-  _1-CONVERT TO NEXT?? FOR [id]?_
+_1. IMP ABOUT, SERVICES, AND CONTACT PAGES_
 
 Which wild animal are you??
 -COYOTE PACKAGES/ Level-
