@@ -1,11 +1,8 @@
-// import site1 from "../../images/site1.jpg";
-import site1 from "../../../public/assets/screenshots/site1.png";
-import site2 from "../../../public/assets/screenshots/site2.png";
-import site3 from "../../../public/assets/screenshots/site3.png";
-// import site4 from "../../../public/assets/screenshots/site4.png";
- 
+import site1 from "../public/assets/screenshots/site1.png";
+import site2 from "../public/assets/screenshots/site2.png";
+import site3 from "../public/assets/screenshots/site3.png";
 
-const content = [
+export const content = [
   {
     id: 1,
     image: site1,

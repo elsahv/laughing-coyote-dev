@@ -1,8 +1,9 @@
 'use client'
 
 import { motion } from "framer-motion";
-import Coyote from "../../public/coyote.png";
+import Coyote from "../public/coyote.png";
 import Image from "next/image";
+
 const Hero = () => {
   return (
     <motion.section

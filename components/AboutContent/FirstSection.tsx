@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutImg from "../../../public/assets/screenshots/designs/-hero.png";
+import AboutImg from "../../public/assets/screenshots/designs/-hero.png";
 import { motion } from "framer-motion";
 
 const FirstSection = () => {
@@ -21,8 +21,7 @@ const FirstSection = () => {
       So why choose Laughing Coyote Dev?
       </h2>
       <p>
-         Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Delectus quaerat labore quod, iure
+      Endless Designs available- consectetur adipisicing elit. Delectus quaerat labore quod, iure
         nihil dolorum at nesciunt? Quibusdam quasi natus repudiandae in
         repellat animi, vitae velit modi, sunt, ipsam facilis.
       </p>

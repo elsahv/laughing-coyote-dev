@@ -1,21 +1,21 @@
 'use client'
 
 import Image from "next/image";
-import content from "./data";
 import { motion } from "framer-motion";
+import content from "@/constants";
 
-const Services = () => {
+const PkgRates = () => {
   return (
     <section
       id="services"
-      className="bg-onyx border-4 border-black"
+      className="h-screen bg-onyx"
     >
       {/* //* RECENT CLIENTS*/}
 
 <motion.div
    initial={{ opacity: 0 }}
    whileInView={{ opacity: 1 }}
-   transition={{ duration: 2.5 }}
+   transition={{ duration: .5 }}
 >
       <h2 className="text-parchment drop-shadow-lg pt-[120px] flex justify-end font-bold pr-[200px]">
         Package rates
@@ -50,9 +50,8 @@ const Services = () => {
    
 
       </motion.div>
-      dsfmdlk
     </section>
   );
 };
 
-export default Services;
+export default PkgRates;

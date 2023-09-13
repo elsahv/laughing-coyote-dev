@@ -3,9 +3,9 @@ import FirstSection from "./FirstSection";
 // import SecondSection from "./SecondSection";
 // import ThirdSection from "./ThirdSection";
 
-const About = () => {
+const AboutContent = () => {
   return (
-    <section id="about" className="2xl:h-screen h-[100%] pt-[50px] pb-[250px] bg-parchment">
+    <section id="about" className="bg-parchment">
       <FirstSection />
   {/* <SecondSection /> //todo MAKE VISIBLE AFTER CONTENT ADD   */} 
       {/* <ThirdSection />  //todo MAKE VISIBLE AFTER CONTENT ADD  */}
@@ -14,4 +14,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutContent;
