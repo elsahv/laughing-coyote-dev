@@ -34,7 +34,10 @@ const Hero = () => {
 
       {/* //todo- IMP CONTACT CTA V */}
               <button className="dropshadow-lg bg-teal px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
-               Contact
+            Find Out More!
+              </button>
+              <button className="dropshadow-lg bg-teal px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
+               Contact- free consultation
               </button>
       {/* //todo- END ^ */}
 

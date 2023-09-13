@@ -1,4 +1,6 @@
 - TODO:
+- contact form
+- animations
 
 - \***\*CURRENTLY: \*\***
 

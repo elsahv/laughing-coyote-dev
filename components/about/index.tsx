@@ -1,10 +1,17 @@
+'use client'
+import Designs from "@/components/Designs"
 import Image from "next/image";
 import AboutImg from "../../public/assets/screenshots/designs/-hero.png";
 import { motion } from "framer-motion";
 
-const FirstSection = () => {
+
+ 
+const AboutSection = () => {
   return (
-    <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx ">
+    <div className="">
+      <Designs />
+      <section id="about" className="bg-parchment">
+      <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx ">
     <motion.div
       initial={{
         x: -200,
@@ -48,7 +55,14 @@ const FirstSection = () => {
       />
     </div>
   </div>
+  {/* <SecondSection /> //todo MAKE VISIBLE AFTER CONTENT ADD   */} 
+      {/* <ThirdSection />  //todo MAKE VISIBLE AFTER CONTENT ADD  */}
+   
+    </section>
+      <Designs />
+    </div>
   )
+
 }
 
-export default FirstSection
+export default AboutSection
