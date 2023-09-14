@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Designs = () => {
   return (
-    <section className="dropshadow-lg bg-parchment border-6 border-brown py-[55px]"
+    <div className="dropshadow-lg bg-parchment border-6 border-brown py-[55px]"
       id="fish-gallery"
     >
       <div className="flex justify-center">
@@ -24,7 +24,7 @@ const Designs = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -2,6 +2,7 @@
 const FAQaccordian = () => {
   return (
     <div>
+      <h2>FAQ ACCORDIAN</h2>
         <ul>
             <li>Q1</li>
             <li>Q2</li>

@@ -1,29 +1,60 @@
-import React from 'react'
+import { TbBrandNextjs } from "react-icons/tb";
+import { BsCodeSlash } from "react-icons/bs";
+import { FcShop } from "react-icons/fc";
+import { FaJar } from "react-icons/fa6";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
+
+
+ export const services = [
+  {
+    title: "NextJS Code and Benefits",
+    icon:   <TbBrandNextjs />
+  },
+  {
+    title: "Development and design advantages",
+    icon:   <BsCodeSlash />
+  },
+  {
+    title: "Branding unique for your business",
+    icon:   <FcShop />
+  },
+  {
+    title: "Jamstack, Headless CMS Benefits",
+    icon:   <FaJar />
+  },
+  {
+    title: "Monthly Analytics",
+    icon:   <BsGraphUpArrow />
+  },
+  {
+    title: "Mobile SEO",
+    icon:   <FaMobileAlt />
+  },
+ ]
+
 
 const ServicesIncludes = () => {
   return (
-    <div className="w-full">
-         <section className="bg-teal">
-        <h2 className="">Services Includes:</h2>
-           <ul className="grid grid-cols-2 gap-2 text-center">
-            <li className="bg-parchment">1</li>
-            <li className="bg-parchment">2</li>
-            <li className="bg-parchment">3</li>
-            <li className="bg-parchment">4</li>
-            <li className="bg-parchment">5</li>
-            <li className="bg-parchment">6</li>
-           </ul>
-           </section>
+ <section className="bg-test1 w-full flex justify-center">
+   <div className="grid grid-cols-2 gap-2">
+   {services.map((service) => (
+    <div className="" key={service.title}>
+      <div className="mt-5 flex flex-col text-center">
+   <h2 className="">{service.title}</h2>
+   <div className="text-4xl py-2 bg- flex justify-center">
+    {service.icon}
+    </div>
+    <section className="flex justify-center">
+   <p className="w-1/2 text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas culpa voluptatum tempore consequuntur quibusdam, fugit ut deserunt molestiae debitis dolores hic esse veniam sint praesentium quae aliquam, aspernatur, quas laboriosam.</p>
+    </section>
+    </div>
+    </div>
+   ))}
+   
+   </div>
+     </section>
 
-           <section className="bg-test2">
-           <ul className="flex justify-center gap-2">
-            <li className="bg-parchment">A</li>
-            <li className="bg-parchment">B</li>
-            <li className="bg-parchment">C</li>
-            <li className="bg-parchment">D</li>
-           </ul>
-           </section>
-        </div>
   )
 }
 

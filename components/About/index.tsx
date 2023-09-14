@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 
  
-const AboutSection = () => {
+const About = () => {
   return (
-    <div className="">
-      <Designs />
+    <section className="">
+      <Designs />              {/* //todo: CONDITIONAL STATEMENT- TOP GRID ARE RANDOM DESIGNS (INCLUDES CASE STUDIES), BOTTOM GRID ARE CLIENT SITES */}
       <section id="about" className="bg-parchment">
       <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx ">
     <motion.div
@@ -55,14 +55,13 @@ const AboutSection = () => {
       />
     </div>
   </div>
-  {/* <SecondSection /> //todo MAKE VISIBLE AFTER CONTENT ADD   */} 
-      {/* <ThirdSection />  //todo MAKE VISIBLE AFTER CONTENT ADD  */}
+
    
     </section>
-      <Designs />
-    </div>
+      <Designs />        {/* //todo: CONDITIONAL STATEMENT- TOP GRID ARE RANDOM DESIGNS (INCLUDES CASE STUDIES), BOTTOM GRID ARE CLIENT SITES */}   
+    </section>
   )
 
 }
 
-export default AboutSection
+export default About

@@ -1,34 +1,30 @@
-import ServicesIncludes from '@/components/ServicesIncludes'
-import About from '../../components/About'
-import CaseStudies from '@/components/CaseStudies'
-import FAQaccordian from '@/components/FAQaccordian'
-import FooterBanner from '@/components/FooterBanner'
+import { About, FAQaccordian, ServicesIncludes } from '@/components'
+import DynamicFooterBanner from '@/components/Dynamic_FooterBanner'
+import DynamicGridSqs from '@/components/Dynamic_GridSqs'
 
 const WebDevelopment = () => {
   return (
     <div>
       <About />
-
-.
-
-      <section className="bg-test1 w-full flex justify-center">
         <ServicesIncludes />
-        </section>
+
+        <div className="w-full text-center bg-test2">
+           <DynamicGridSqs
+          title="4 STEP PROCESS"
+          item1="Discovery phase"
+          item2="Creative Phase"
+          item3="Development Phase"
+          item4="Launch Phase"
+           />
+        </div>
 .
        <section className="bg-teal w-full flex justify-center">
        <FAQaccordian />
        </section>
-
-
-
-      {/* //todo DYNAMIC COMP- FOOTERBANNER*/}
-
-       <FooterBanner />
-      {/* //todo END*/}
-
-
-
-      <CaseStudies />
+       <DynamicFooterBanner
+        title="Contact CTA"
+        paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sunt, est quas amet aut explicabo tempore quasi autem iure, minus consequatur eveniet tempora unde, eos quia odio accusamus totam praesentium."
+       />
     </div>
   )
 }
