@@ -6,11 +6,18 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
+
+  //todo: FINALIZE COLORS, IMPLEMENT BUTTON, GRID 
   theme: {
     extend: {
       colors: {
-        onyx: "#35373d",
+        richBlack: "#001524",
         parchment: "#f0ead2",
+        carribean:'#15616D',
+        papaya:'#FFECD1',
+        orange:'#FF7D00',
+        sienna:'#78290F',
         test1: "pink",
         test2: "lightgreen",
         teal: "teal",

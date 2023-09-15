@@ -1,6 +1,7 @@
 'use client'
 
-export interface CustomGrid {
+export interface CustomGridProps {
+  containerStyles?: string;
   title: string;
   item1: string;
   item2: string;
@@ -12,21 +13,24 @@ export interface CustomGrid {
 
 
 const DynamicGridSqs = ({
+  containerStyles,
   title,
   item1,
   item2,
   item3,
   item4
-}: CustomGrid) => {
+}: CustomGridProps) => {
   return (
-    <div className="w-full py-5 bg-test2">
-    <h3 className="">{title}</h3>
-    <div className="grid grid-cols-4 gap-2">
+    <div className={`w-full py-5 my-5 ${containerStyles}`}>
+      <section className="py-3 px-5">
+    <h3 className="font-bold text-2xl mb-3">{title}</h3>
+    <div className="text-center grid grid-cols-4 gap-2">
      <span className="bg-parchment">{item1}</span>
      <span className="bg-parchment">{item2}</span>
      <span className="bg-parchment">{item3}</span>
      <span className="bg-parchment">{item4}</span>
     </div>
+    </section>
  </div>
   )
 }

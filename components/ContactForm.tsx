@@ -23,7 +23,7 @@ const ContactForm = () => {
         <input className="pl-1 border-2 border-black" placeholder="name" />
         <input className="pl-1 border-2 border-black" placeholder="email"/>
         <textarea className="pl-1 border-2 border-black" placeholder="message"/>
-        <button className="bg-teal border border-black w-1/4">Send</button>
+        <button className="bg-carribean border border-black w-1/4">Send</button>
       </form>
     </div>
   </motion.div>

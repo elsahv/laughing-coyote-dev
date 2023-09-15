@@ -8,17 +8,19 @@ const WebDevelopment = () => {
       <About />
         <ServicesIncludes />
 
-        <div className="w-full text-center bg-test2">
+        <div className="w-full">
            <DynamicGridSqs
+          containerStyles=""
           title="4 STEP PROCESS"
           item1="Discovery phase"
           item2="Creative Phase"
           item3="Development Phase"
-          item4="Launch Phase"
+          item4="Launch Phase"  
+
            />
         </div>
 .
-       <section className="bg-teal w-full flex justify-center">
+       <section className="bg-carribean w-full flex justify-center">
        <FAQaccordian />
        </section>
        <DynamicFooterBanner

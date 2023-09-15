@@ -7,11 +7,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  /* background: #faedcd; */  
+
 }
 
 html {
   scroll-behavior: smooth;
+  /* background: #faedcd;   */
+  background: #FFECD1;  
 }
 .universal-img{
   border: solid 1px #000;

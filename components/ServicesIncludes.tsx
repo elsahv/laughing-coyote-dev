@@ -36,7 +36,7 @@ import { FaMobileAlt } from "react-icons/fa";
 
 const ServicesIncludes = () => {
   return (
- <section className="bg-test1 w-full flex justify-center">
+ <section className=" w-full flex justify-center py-5">
    <div className="grid grid-cols-2 gap-2">
    {services.map((service) => (
     <div className="" key={service.title}>

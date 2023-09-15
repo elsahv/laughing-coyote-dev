@@ -39,7 +39,7 @@ const About = () => {
         in ab magni eos enim illo iusto delectus sed, unde autem!
       </p>
       <div className="flex gap-4">
-        <button className="bg-teal-700 text-white bg-teal p-2 my-5 drop-shadow-lg">
+        <button className="text-white bg-carribean p-2 my-5 drop-shadow-lg">
           <a href=""> a button!</a>
         </button>
         <button className="bg-orange-500 text-white p-2 my-5 drop-shadow-lg">
