@@ -13,6 +13,7 @@ const config: Config = {
     extend: {
       colors: {
         richBlack: "#001524",
+        onyx: "#35373d",
         parchment: "#f0ead2",
         carribean:'#15616D',
         papaya:'#FFECD1',

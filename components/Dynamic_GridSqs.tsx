@@ -8,8 +8,7 @@ export interface CustomGridProps {
   item3: string;
   item4: string;
 }
-
-
+ 
 
 
 const DynamicGridSqs = ({
@@ -25,10 +24,10 @@ const DynamicGridSqs = ({
       <section className="py-3 px-5">
     <h3 className="font-bold text-2xl mb-3">{title}</h3>
     <div className="text-center grid grid-cols-4 gap-2">
-     <span className="bg-parchment">{item1}</span>
-     <span className="bg-parchment">{item2}</span>
-     <span className="bg-parchment">{item3}</span>
-     <span className="bg-parchment">{item4}</span>
+     <span className="bg-orange">{item1}</span>
+     <span className="bg-teal">{item2}</span>
+     <span className="bg-sienna">{item3}</span>
+     <span className="bg-richBlack">{item4}</span>
     </div>
     </section>
  </div>

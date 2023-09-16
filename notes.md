@@ -1,6 +1,11 @@
-- TODO:
-- contact form
+- TODO CODE:
+- contact form comp
 - animations
+- dynamic buttons comp
+- hamburger menu comp
+- accordian comp
+- imp Sanity
+- designs- clickable, view site, imp sanity
 
 - \***\*CURRENTLY: \*\***
 

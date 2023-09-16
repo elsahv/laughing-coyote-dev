@@ -4,10 +4,11 @@ import DynamicGridSqs from '@/components/Dynamic_GridSqs'
 
 const WebDevelopment = () => {
   return (
-    <div>
+    <div >
       <About />
+      <div id="services" className="">
         <ServicesIncludes />
-
+        </div>
         <div className="w-full">
            <DynamicGridSqs
           containerStyles=""

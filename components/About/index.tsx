@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
  
 const About = () => {
   return (
-    <section className="">
+    <section id="about">
       <Designs />              {/* //todo: CONDITIONAL STATEMENT- TOP GRID ARE RANDOM DESIGNS (INCLUDES CASE STUDIES), BOTTOM GRID ARE CLIENT SITES */}
-      <section id="about" className="bg-parchment">
+      <section className="bg-parchment">
       <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx ">
     <motion.div
       initial={{
