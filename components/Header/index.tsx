@@ -1,8 +1,9 @@
-import Hamburger from "./Hamburger";
+'use client'
+import Hamburger from "../Hamburger";
 
 const Header = () => {
   return (
-    <header className="text-carribean bg-parchment  w-full z-50 pt-3 dropshadow-3xl">
+    <header className="text-carribean bg-parchment  w-full absolute z-50 pt-3 dropshadow-3xl">
       <nav className="flex justify-between py-4 pb-3 px-3 w-full text-2xl">
         <a href="/" className="font-bold dropshadow-2xl md:text-3xl text-2xl text-onyx">
           Laughing Coyote Dev
@@ -16,14 +17,7 @@ const Header = () => {
           </a>
         </div>
 
-     {/* //todo: IMP USESTATE BTN */}
-        <div className="flex items-center mb-3 py-1 px-3 text-onyx hover:text-parchment dropshadow-2xl bg-[#ff7d00] border border-black hover:border-parchment">
-            <div>
-              Menu
-              </div> 
-            <Hamburger />
-              {/* //todo: IMP USESTATE BTN END */}
-        </div>
+              <Hamburger />
       </nav>
     </header>
   );

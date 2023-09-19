@@ -2,14 +2,10 @@
 - contact form comp
 - animations
 - dynamic buttons comp
-- hamburger menu comp
+- _hamburger menu comp_
 - accordian comp
 - imp Sanity
 - designs- clickable, view site, imp sanity
-
-- \***\*CURRENTLY: \*\***
-
-  _1-IMP- PKGS RATE DYNAMIC COMP-_
 
 Which wild animal are you??
 -COYOTE PACKAGES/ Level-
