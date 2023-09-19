@@ -1,7 +1,8 @@
 
 const FAQaccordian = () => {
   return (
-    <div>
+    <section className="bg-carribean w-full flex justify-center">
+
       <h2>FAQ ACCORDIAN</h2>
         <ul>
             <li>Q1</li>
@@ -10,7 +11,9 @@ const FAQaccordian = () => {
             <li>Q4</li>
             <li>Q5</li>
         </ul>
-    </div>
+        
+       </section>
+   
   )
 }
 

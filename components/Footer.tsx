@@ -8,9 +8,7 @@ const Footer = () => {
       <FaLinkedin className="" />
       <FaYelp className="" />
       <p className="pl-2 ml-5">Laughing Coyote Dev &copy; {today.getFullYear()}</p>
-      <div className="ml-5 flex space-between">
       <DynamicMenu />
-      </div>
     </footer>
   );
 };

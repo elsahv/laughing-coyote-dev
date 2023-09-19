@@ -37,9 +37,9 @@ export const items = [
 
 const DynamicMenu = () => {
   return (
-    <ul id="dynamic-menu" className="flex space-between">
+    <ul id="dynamic-menu" className="">
          {items.map((item) => (
-            <li className="px-3 mx-1" key={item.menuItem}>
+            <li className="px-3 mx-1 text-parchment drop-shadow-xl" key={item.menuItem}>
                 <Link href={item.url}>
                 {item.menuItem}
                 </Link>

@@ -4,31 +4,35 @@ import DynamicGridSqs from '@/components/Dynamic_GridSqs'
 
 const WebDevelopment = () => {
   return (
-    <div >
+    <>
       <About />
-      <div id="services" className="">
         <ServicesIncludes />
-        </div>
-        <div className="w-full">
            <DynamicGridSqs
-          containerStyles=""
-          title="4 STEP PROCESS"
-          item1="Discovery phase"
-          item2="Creative Phase"
-          item3="Development Phase"
-          item4="Launch Phase"  
-
+          containerStyles="dropshadow-lg"
+          PgTitle="4 STEP PROCESS- Lorem ipsum, dolor sit amet "
+   
+          SQtitle1="Discovery phase"
+          SQparagraph1="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle2="Creative Phase"
+          SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle3="Development Phase"
+          SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle4="Launch Phase"  
+          SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
            />
-        </div>
-.
-       <section className="bg-carribean w-full flex justify-center">
-       <FAQaccordian />
-       </section>
+
+      {/* //todo... v */}
+       {/* <FAQaccordian /> */}
+      {/* //todo... ^ */}
+
        <DynamicFooterBanner
         title="Contact CTA"
         paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sunt, est quas amet aut explicabo tempore quasi autem iure, minus consequatur eveniet tempora unde, eos quia odio accusamus totam praesentium."
        />
-    </div>
+    </>
   )
 }
 

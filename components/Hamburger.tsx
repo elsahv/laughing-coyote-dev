@@ -18,10 +18,12 @@ const Hamburger = () => {
       <FaIcons.FaBars className="ml-2" />
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="pl-5 text-3xl" onClick={showSidebar}>
-          <div className="pt-5 mb-5 pb-3 relative top-0 right-0"> 
+          <div className="text-orange pt-5 mb-5 pb-3 relative top-0 right-0"> 
             <AiIcons.AiOutlineClose />
           </div>
+          <div className="flex flex-col">
           <DynamicMenu />
+          </div>
         </ul>
       </nav>
       </div>

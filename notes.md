@@ -2,10 +2,10 @@
 - contact form comp
 - animations
 - dynamic buttons comp
-- _hamburger menu comp_
 - accordian comp
 - imp Sanity
 - designs- clickable, view site, imp sanity
+- learn next/router
 
 Which wild animal are you??
 -COYOTE PACKAGES/ Level-

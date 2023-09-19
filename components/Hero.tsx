@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Coyote from "../public/coyote.png";
 import Image from "next/image";
 import Link from "next/link";
+import DynamicButtons from "./Dynamic_buttons";
 
 const Hero = () => {
   return (
@@ -34,17 +35,7 @@ const Hero = () => {
               </p>
 
       {/* //todo- IMP DYNAMIC BTN */}
-              <button className="dropshadow-lg bg-teal px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
-              <Link href="/web-development">
-            Find Out More!
-            </Link>
-            
-              </button>
-              <button className="dropshadow-lg bg-carribean px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
-                <Link href="/contact">
-               Contact- free consultation
-               </Link>
-              </button>
+              <DynamicButtons />
       {/* //todo- END ^ */}
 
             </div>
