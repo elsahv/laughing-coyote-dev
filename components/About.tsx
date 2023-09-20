@@ -1,16 +1,18 @@
 'use client'
 import Designs from "@/components/Designs"
 import Image from "next/image";
-import AboutImg from "../../public/assets/screenshots/designs/-hero.png";
+import AboutImg from "../public/assets/screenshots/designs/-hero.png";
 import { motion } from "framer-motion";
+import DynamicButtons from "./Dynamic_buttons";
+import CaseStudies from "./CaseStudies";
 
 
  
 const About = () => {
   return (
     <section id="about">
-      <Designs />              {/* //todo: CONDITIONAL STATEMENT- TOP GRID ARE RANDOM DESIGNS (INCLUDES CASE STUDIES), BOTTOM GRID ARE CLIENT SITES */}
-      <section className="bg-parchment">
+      <Designs />
+     
       <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx ">
     <motion.div
       initial={{
@@ -38,14 +40,12 @@ const About = () => {
         ea ipsam corrupti suscipit sapiente quisquam odit dolorum totam ad
         in ab magni eos enim illo iusto delectus sed, unde autem!
       </p>
-      <div className="flex gap-4">
-        <button className="text-white bg-carribean p-2 my-5 drop-shadow-lg">
-          <a href=""> a button!</a>
-        </button>
-        <button className="bg-orange-500 text-white p-2 my-5 drop-shadow-lg">
-          <a href=""> another button!</a>
-        </button>
-      </div>
+
+      <DynamicButtons
+               leftBtn="a button!"
+               rightBtn="another button!"
+              />
+
     </motion.div>
     <div className="2xl:m-0 sm:ml-[50px] p-5">
       <Image
@@ -57,8 +57,7 @@ const About = () => {
   </div>
 
    
-    </section>
-      <Designs />        {/* //todo: CONDITIONAL STATEMENT- TOP GRID ARE RANDOM DESIGNS (INCLUDES CASE STUDIES), BOTTOM GRID ARE CLIENT SITES */}   
+    <CaseStudies />
     </section>
   )
 

@@ -1,10 +1,10 @@
 'use client'
 
-import site1 from "../public/assets/screenshots/site1.png";
-import site2 from "../public/assets/screenshots/site2.png";
-import site3 from "../public/assets/screenshots/site3.png";
+// import site1 from "../public/assets/screenshots/site1.png";
+// import site2 from "../public/assets/screenshots/site2.png";
+// import site3 from "../public/assets/screenshots/site3.png";
 
-import Image from "next/image";
+// import Image from "next/image";
 import { motion } from "framer-motion";
 // import {content} from "@/constants";
 
@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 export const content = [
   {
     id: 1,
-    image: site1,
+    // image: site1,
     title: "The Growing Pup",
     item1: "template small brochure single to 3 pages",
     item2: "-hero/Cta",
@@ -24,7 +24,7 @@ export const content = [
   
   {
     id: 2,
-    image: site2,
+    // image: site2,
     title: "The Rising Carnivore/ Omega",
     item1: "small custom site with:",
     item2: "domain setup",
@@ -35,7 +35,7 @@ export const content = [
     },
   {
     id: 3,
-    image: site3,
+    // image: site3,
     title: "The Alpha",
     item1: "small site with monthly maintenance",
     item2: "w/ SUBSCRIPTION SERVICES",
@@ -78,11 +78,11 @@ const PackageRates = () => {
             <div className="border-2 border-black rounded-lg"
               key={index}
             >
-              <Image
+              {/* <Image
                 className=" rounded-t-lg w-[100%] h-[270px] border-t-2 border-b-2 border-black"
                 src={item.image}
                 alt=""
-              />
+              /> */}
               <div className="p-2 bg-parchment rounded-b-lg">
                 <h3 className="text-lavender font-bold text-lg">{item.title}</h3>
                 <ul className="">

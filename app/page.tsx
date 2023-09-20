@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* //todo ABOUT ID */}
       <Dynamic_GridSqs
-          containerStyles="dropshadow-lg text-parchment bg-onyx"
+          containerStyles="dropshadow-lg border border-black my-5"
           PgTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic earum consequuntur libero facilis, esse obcaecati alias voluptatibus facere iusto. Deleniti quia animi atque voluptates. Veniam adipisci provident voluptas ratione.
           "
               SQtitle1="seo"

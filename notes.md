@@ -1,11 +1,11 @@
-- TODO CODE:
+- TODO NOW:
 - contact form comp
+
+- TODO LATER:
 - animations
-- dynamic buttons comp
 - accordian comp
 - imp Sanity
 - designs- clickable, view site, imp sanity
-- learn next/router
 
 Which wild animal are you??
 -COYOTE PACKAGES/ Level-

@@ -1,22 +1,32 @@
+'use client'
 import Link from 'next/link'
-import React from 'react'
 
-const DynamicButtons = () => {
+
+export interface CustomGridProps {
+  leftBtn: string;
+  rightBtn: string;
+ 
+}
+ 
+
+const DynamicButtons = ({
+  leftBtn,
+  rightBtn,
+}) => {
   return (
-    <>
+    <div className="p-1 mt-5 text-parchment">
 
-<button className="dropshadow-lg bg-teal px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
-              <Link href="/web-development">
-            Find Out More!
+<button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
+            <Link href="/web-development">
+            {leftBtn}
             </Link>
-            
               </button>
-              <button className="dropshadow-lg bg-carribean px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
-                <Link href="/contact">
-               Contact- free consultation
-               </Link>
+              <button className="dropshadow-lg bg-carribean hover:text-orange ml-1 px-2 py-1 dropshadow-md">
+            <Link href="/contact">
+            {rightBtn}
+            </Link>
               </button>
-    </>
+    </div>
   )
 }
 

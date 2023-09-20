@@ -1,5 +1,4 @@
 import Link from "next/link"
-// import {items} from '../constants'
 
 
 export const items = [

@@ -1,7 +1,7 @@
 
 const FAQaccordian = () => {
   return (
-    <section className="bg-carribean w-full flex justify-center">
+    <section className="w-full flex justify-center">
 
       <h2>FAQ ACCORDIAN</h2>
         <ul>

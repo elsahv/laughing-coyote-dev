@@ -8,9 +8,8 @@ import Dynamic_GridSqs from './Dynamic_GridSqs'
 import FAQaccordian from './FAQaccordian'
 import Footer from './Footer'
 import Header from './Header'
-import Hamburger from './Hamburger'
+import Hamburger from './Header/Hamburger'
 import Hero from './Hero'
-import PkgRates from './PkgRates'
 import Questions from './Questions'
 import ServicesIncludes from './ServicesIncludes'
 
@@ -28,7 +27,6 @@ export {
     Hamburger,
     Header,
     Hero,
-    PkgRates,
     Questions,
     ServicesIncludes
 } 

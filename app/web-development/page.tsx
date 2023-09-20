@@ -8,7 +8,7 @@ const WebDevelopment = () => {
       <About />
         <ServicesIncludes />
            <DynamicGridSqs
-          containerStyles="dropshadow-lg"
+          containerStyles="dropshadow-lg text-center bg-teal text-parchment"
           PgTitle="4 STEP PROCESS- Lorem ipsum, dolor sit amet "
    
           SQtitle1="Discovery phase"
@@ -25,7 +25,7 @@ const WebDevelopment = () => {
            />
 
       {/* //todo... v */}
-       {/* <FAQaccordian /> */}
+       <FAQaccordian />
       {/* //todo... ^ */}
 
        <DynamicFooterBanner

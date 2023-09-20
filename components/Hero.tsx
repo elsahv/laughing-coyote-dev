@@ -34,9 +34,10 @@ const Hero = () => {
                 alone.
               </p>
 
-      {/* //todo- IMP DYNAMIC BTN */}
-              <DynamicButtons />
-      {/* //todo- END ^ */}
+              <DynamicButtons
+               leftBtn="Find Out more!!"
+               rightBtn="Contact- free consultation"
+              />
 
             </div>
           </section>
