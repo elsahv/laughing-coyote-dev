@@ -10,6 +10,11 @@ const Contact = () => {
   return (
     <section className="h-screen flex 2xl:flex-row flex-col justify-center items-center bg-parchment">
       <ContactForm />
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <motion.div className="my-10 drop-shadow-lg p-5 flex md:justify-end justify-center">
         <Image
           src={ContactImg}

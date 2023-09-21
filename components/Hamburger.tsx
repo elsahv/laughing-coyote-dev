@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import DynamicMenu from "../Dynamic_Menu";
+import DynamicMenu from "./Dynamic_Menu";
 
 
 const Hamburger = () => {

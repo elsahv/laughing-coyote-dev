@@ -2,7 +2,9 @@ import React from 'react'
 
 const Writing = () => {
   return (
-    <div>Writing</div>
+    <div className="h-screem">
+      <h2>Writing</h2>
+      </div>
   )
 }
 

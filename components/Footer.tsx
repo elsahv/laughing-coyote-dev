@@ -4,11 +4,11 @@ const today = new Date();
 
 const Footer = () => {
   return (
-    <footer className="text-parchment bg-onyx flex justify-center items-center py-5">
+    <footer className="text-onyx bg-parchment flex justify-center items-center py-5">
       <FaLinkedin className="" />
       <FaYelp className="" />
       <p className="pl-2 ml-5">Laughing Coyote Dev &copy; {today.getFullYear()}</p>
-      <DynamicMenu />
+    {/*  <DynamicMenu />   //todo: MAKE VISIBLE WHEN READY*/}
     </footer>
   );
 };

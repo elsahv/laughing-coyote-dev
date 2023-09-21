@@ -1,5 +1,4 @@
-import { About, FAQaccordian, ServicesIncludes } from '@/components'
-import DynamicFooterBanner from '@/components/Dynamic_FooterBanner'
+import { About, Dynamic_FooterBanner, PackageRates, ServicesIncludes } from '@/components'
 import DynamicGridSqs from '@/components/Dynamic_GridSqs'
 
 const WebDevelopment = () => {
@@ -8,11 +7,11 @@ const WebDevelopment = () => {
       <About />
         <ServicesIncludes />
            <DynamicGridSqs
-          containerStyles="dropshadow-lg text-center bg-teal text-parchment"
-          PgTitle="4 STEP PROCESS- Lorem ipsum, dolor sit amet "
+          containerStyles="dropshadow-lg text-center"
+          PgTitle="4 STEP PROCESS- How it works!"
    
           SQtitle1="Discovery phase"
-          SQparagraph1="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+          SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
        
           SQtitle2="Creative Phase"
           SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
@@ -25,10 +24,13 @@ const WebDevelopment = () => {
            />
 
       {/* //todo... v */}
-       <FAQaccordian />
+       {/* <FAQaccordian /> */}
       {/* //todo... ^ */}
 
-       <DynamicFooterBanner
+       <PackageRates />
+
+
+       <Dynamic_FooterBanner
         title="Contact CTA"
         paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sunt, est quas amet aut explicabo tempore quasi autem iure, minus consequatur eveniet tempora unde, eos quia odio accusamus totam praesentium."
        />

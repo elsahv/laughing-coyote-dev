@@ -11,33 +11,37 @@ export interface FooterbannerProps {
  {/* //todo-CONDITIONAL STATEMENT- WEB DEV/CONTACT CTA */}
 
 
-const DynamicFooterBanner = ({
+const Dynamic_FooterBanner = ({
   title,
   paragraph,
   containerStyles
 }: FooterbannerProps) => {
   return (
-<section className={`bg-onyx text-parchment p-5 ${containerStyles}`}>
-
+<section className={`bg-onyx text-parchment grid grid-cols-2 ${containerStyles}`}>
+         <div className="p-5">
           <h3 className="text-3xl font-bold">{title}</h3>
            <p className="mb-1 text-md">{paragraph}</p>
+           </div>
+
+           <div className="bg-carribean p-5">
+           {/* //todo: IMP CONTACT FORM */}
+               <ul className="text-parchment text-lg">
+                <li className="underline text-3xl font-bold">Contact at:</li>
+                <li className="pt-4">laughingcoyotedev@gmail.com</li>
+               </ul>
+               </div>
 
 
-           {/* //todo: IMP DYNAMIC BTNS */}
-       {/* <Link className="py-1 px-3 bg-teal"href="/package-rates">package-rates</Link>
-        <Link className="px-2 py-1 bg-carribean"href="/contact">contact- lets go!</Link> */}
-
-
-
-              <DynamicButtons 
+           {/* //todo: MAKE DYNAMIC BTNS VISIBLE WHEN PKG RATES PG AND CONTACT FORM ARE READY! */}
+              {/* <DynamicButtons 
                leftBtn="package-rates"
                rightBtn="contact- lets go!"
-              />
-
+              /> */}
+             {/* //todo: MAKE DYNAMIC BTNS VISIBLE WHEN PKG RATES PG AND CONTACT FORM ARE READY! */}
        </section> 
   )
 }
 
-export default DynamicFooterBanner  
+export default Dynamic_FooterBanner  
 
  {/* //todo-END */}

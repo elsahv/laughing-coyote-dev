@@ -27,7 +27,7 @@ const content = [
 ];
 
 
-
+//todo: HOVER GRID EFFECT 
 const Designs = () => {
   return (
     <div className="dropshadow-lg bg-parchment border-6 border-brown my-[55px]"

@@ -1,9 +1,9 @@
 - TODO NOW:
 - contact form comp
+- finalize front page content
 
 - TODO LATER:
 - animations
-- accordian comp
 - imp Sanity
 - designs- clickable, view site, imp sanity
 

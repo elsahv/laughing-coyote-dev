@@ -29,7 +29,7 @@ const DynamicGridSqs = ({
   SQparagraph4
 }: CustomGridProps) => {
   return (
-    <div className={`w-full py-5 my-5 ${containerStyles}`}>
+    <div className={`w-full px-5 py-[35px] ${containerStyles} border border-black`}>
       <section className="py-3 px-5">
     <h3 className="text-2xl mb-3 text-left">{PgTitle}</h3>
     <div className="text-cener grid grid-cols-4 gap-2">

@@ -6,6 +6,7 @@ import site7 from "../public/assets/screenshots/site7.png";
 import Image from "next/image";
 import Link from "next/link";
 
+//todo: HOVER GRID EFFECT 
 
 const content = [
   {
@@ -34,7 +35,7 @@ const CaseStudies = () => {
       id="fish-gallery"
     >
       <div className="flex justify-center">
-        <div className="bg-orange-400  grid gap-1 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        <div className="bg-orange-400 grid gap-1 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
           {content.map((item, index) => (
             <div className="border-4 border-onyx" key={index}>
               <Link href={item.url}>

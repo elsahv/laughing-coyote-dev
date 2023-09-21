@@ -17,7 +17,7 @@ const ContactForm = () => {
   >
     <div id="contact-form" className="text-onyx text-2xl ">
       <h2 className="text-black font-bold md:text-5xl text-3xl pb-5">
-        Contact
+        Contact Form
       </h2>
       <form className="flex flex-col gap-y-4">
         <input className="pl-1 border-2 border-black" placeholder="name" />
