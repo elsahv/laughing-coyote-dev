@@ -36,17 +36,21 @@ import { FaMobileAlt } from "react-icons/fa";
 
 const ServicesIncludes = () => {
   return (
- <section id="services" className=" w-full flex justify-center py-5">
-   <div className="grid grid-cols-2 gap-2">
+    <div className="pt-5">
+      <h2 className="text-black text-center font-bold 2xl:text-4xl text-2xl 2xl:pt-0 pt-5 sm:px-5">
+      So why choose Laughing Coyote Dev?
+      </h2>
+ <section id="services" className="w-full flex justify-center py-5">
+   <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
    {services.map((service) => (
     <div className="" key={service.title}>
       <div className="mt-5 flex flex-col text-center">
-   <h2 className="">{service.title}</h2>
+   <h2 className="2xl:font-normal font-semibold 2xl:text-2xl text-lg">{service.title}</h2>
    <div className="text-4xl py-2 bg- flex justify-center">
     {service.icon}
     </div>
     <section className="flex justify-center">
-   <p className="w-1/2 text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas culpa voluptatum tempore consequuntur quibusdam, fugit ut deserunt molestiae debitis dolores hic esse veniam sint praesentium quae aliquam, aspernatur, quas laboriosam.</p>
+   <p className="2xl:w-1/2 w-3/4 text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas culpa voluptatum tempore consequuntur quibusdam, fugit ut deserunt molestiae debitis dolores hic esse veniam sint praesentium quae aliquam, aspernatur, quas laboriosam.</p>
     </section>
     </div>
     </div>
@@ -54,7 +58,7 @@ const ServicesIncludes = () => {
    
    </div>
      </section>
-
+     </div>
   )
 }
 

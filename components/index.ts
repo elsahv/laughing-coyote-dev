@@ -1,7 +1,5 @@
 'use client'
 
-import About from './About'
-import Designs from './Designs'
 import ContactForm from './ContactForm'
 import Dynamic_GridSqs from './Dynamic_GridSqs'
 import Dynamic_FooterBanner from './Dynamic_FooterBanner'
@@ -18,8 +16,6 @@ import PackageRates from './PackageRates'
 
 
 export {
-    About,
-    Designs,
     ContactForm,
     Dynamic_FooterBanner,
     Dynamic_GridSqs,

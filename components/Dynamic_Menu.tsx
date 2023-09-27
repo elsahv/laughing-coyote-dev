@@ -11,8 +11,8 @@ export const items = [
     url: '/web-development/#about'
   },
   {
-    menuItem: 'Services',
-    url: '/web-development/#services'
+    menuItem: 'Websites',
+    url: '/#websites'
 
   },
   // {
@@ -22,12 +22,12 @@ export const items = [
   //   },
     {
       menuItem: 'Package Rates',
-    url: '/package-rates'
+    url: '/#package-rates'
 
     },
     {
       menuItem: 'Contact',
-    url: '/contact'
+    url: '/#contact'
 
     },
 ]

@@ -12,8 +12,8 @@
 
 html {
   scroll-behavior: smooth;
-  /* background: #faedcd;   */
-  background: #FFECD1;  
+  background: #faedcd;  
+  /* background: #FFECD1;   */
 }
 .universal-img{
   border: solid 1px #000;

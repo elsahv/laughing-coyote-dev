@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Coyote from "../public/coyote.png";
 import Image from "next/image";
 import Link from "next/link";
-import DynamicButtons from "./Dynamic_buttons";
 
 const Hero = () => {
   return (
@@ -14,9 +13,7 @@ const Hero = () => {
       transition={{ delay: 0.1, duration: 0.5 }}
       whileInView="show"
     >
-      <div id="hero" className="2xl:pt-[120px] pt-[90px] bg-parchment">
-
-        {/* 1 */}
+      <div id="hero" className="2xl:pt-[120px] pt-[90px]">
         <div className="grid 2xl:grid-cols-2 grid-cols-1 h-screen">
           <section className="px-5 flex items-center ">
             <div className="md:pl-[70px] pl-5">
@@ -34,10 +31,18 @@ const Hero = () => {
                 alone.
               </p>
 
-              <DynamicButtons
-               leftBtn="Find Out more!!"
-               rightBtn="Contact- free consultation"
-              />
+<div className="p-1 mt-5 text-parchment">
+            <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
+              <Link href="/web-development">
+              Web Development
+              </Link>
+              </button>
+              <button className="dropshadow-lg bg-carribean hover:text-orange ml-1 px-2 py-1 dropshadow-md">
+              <Link href="/contact">
+              Contact
+              </Link>
+              </button>
+    </div>
 
             </div>
           </section>
@@ -46,8 +51,6 @@ const Hero = () => {
             <Image src={Coyote} alt="" className=""  />
           </section>
         </div>
-
-        {/* 1 */}
       </div>
     </motion.section>
   );

@@ -1,10 +1,9 @@
-import { About, Dynamic_FooterBanner, PackageRates, ServicesIncludes } from '@/components'
+import {  Dynamic_FooterBanner, PackageRates, ServicesIncludes } from '@/components'
 import DynamicGridSqs from '@/components/Dynamic_GridSqs'
 
 const WebDevelopment = () => {
   return (
     <>
-      <About />
         <ServicesIncludes />
            <DynamicGridSqs
           containerStyles="dropshadow-lg text-center"

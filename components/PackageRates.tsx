@@ -60,29 +60,34 @@ const PackageRates = () => {
   return (
     <section
       id="package-rates"
-      className="h-screen"
+      className="2xl:h-screen h-full"
     >
-      {/* //* RECENT CLIENTS*/}
 
-<motion.div
-   initial={{ opacity: 0 }}
-   whileInView={{ opacity: 1 }}
-   transition={{ duration: .5 }}
->
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: .5 }}
+    >
       <div className="text-center mt-[105px]">
         <h2 className="font-bold text-onyx drop-shadow-lg">Package rates</h2>
-        {/*  //todo CTA REASONS TO CHOOSE THIS SERVICE */}
+        {/*  //todo CTA REASONS TO CHOOSE THIS SERVICE
+             //todo: CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
+                      
+        
+        */}
+
+
         {/*  //todo 4 processes grid?? */}
       <span>Which wild animal are you??</span>   
       </div>
       <div className="flex justify-center">
         <div className="2xl:px-[150px] px-5 pb-[50px] grid gap-x-6 gap-y-10 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-5 my-5">
           {content.map((item, index) => (
-            <div className="border-2 border-black rounded-lg"
+            <div className="border-2 border-sienna rounded-lg"
               key={index}
             >
               <Image
-                className=" rounded-t-lg w-[100%] h-[270px] border-t-2 border-b-2 border-black"
+                className=" rounded-t-lg w-[100%] h-[270px] border-t-2 border-b-2 border-sienna"
                 src={item.image}
                 alt=""
               />
