@@ -1,6 +1,6 @@
 - TODO NOW:
 - contact form comp
-- finalize front page content
+- _finalize front page content_
 
 - TODO LATER:
 - animations
@@ -10,11 +10,29 @@
 Which wild animal are you??
 -COYOTE PACKAGES/ Level-
 
-1.The Growing Pup- template small brochure single to 3 pages. 1-Hero/Cta, 2-about, 3-contact----- 1 pg/ 3 sections OR 3 pgs instead of sections
+**1.The Growing Pup**
+-Home/Welcome (with phone number, hours, address, and directions)
+-Our Menu (show everything you offer along with mouth-watering pictures)
+-Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)
+-Our Story (Tell your customers who you are and why you love ice cream)
+-Contact Us (including links to your social media channels)
 
-2.The Rising Carnivore/ Omega- small custom site with domain setup, hosting, web design
+**2.The Rising Carnivore**
+-Catering
+-Blog setup/integration
+-Join Our Team Hiring Page
+-Join Our Newsletter
+-Specials Or Seasonal Promotions
+-Lorem esse eaque ipsam commodi nisi libero esse
 
-3.The Alpha- small site with monthly maintenance w/ SUBSCRIPTION SERVICES
+**3.The Alpha**
+The Alpha- full website with monthly services + CARNIVORE AND STANDARD PGS
+-Online Ordering System (third-party software of your choice. Their rates apply)
+-Domain name purchase & annual renewals
+-Monthly hosting on secure off-site servers
+-Detailed monthly Google Analytics reports
+-Events Calendar setup & integration (Third-party, user-managed)
+-Monthly security & software updates
 
 4.Part of the pack-- add Social Media, Blog Content,
 

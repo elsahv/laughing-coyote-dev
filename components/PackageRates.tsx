@@ -16,7 +16,7 @@ export const content = [
   {
     id: 1,
     image: site1,
-    title: "The Growing Pup",
+    title: "The Growing Pup",                            //? <- STANDARD PAGES   
     item1: "STANDARD PAGES",
     item2: "-Home/Welcome (with phone number, hours, address, and directions)",
     item3: "Our Menu (show everything you offer along with mouth-watering pictures)",
@@ -27,10 +27,10 @@ export const content = [
   
   {
     id: 2,
-    image: site2,
-    title: "The Rising Carnivore + STANDARD PAGES",
+    image: site2,      
+    title: "The Rising Carnivore + STANDARD PAGES",             //? <- THEMED PAGES                   
     item1: "Catering  ",
-    item2: "Blog setup/integration",
+    item2: "Blog setup/integration",                                       
     item3: "Join Our Team Hiring Page",
     item4: "Join Our Newsletter",
     item5: "Specials Or Seasonal Promotions",
@@ -39,7 +39,7 @@ export const content = [
   {
     id: 3,
     image: site3,
-    title: "The Alpha- full website with monthly services  + CARNIVORE AND STANDARD PGS",         //todo: <- MAKE INVISIBLE UNTIL LEARNT RIGHT SKILLS
+    title: "The Alpha- full website with monthly services  + CARNIVORE AND STANDARD PGS",         //? <- MAKE INVISIBLE UNTIL LEARNT RIGHT SKILLS
     item1: "Online Ordering System (third-party software of your choice. Their rates apply)",
     item2: "Domain name purchase & annual renewals",
     item3: "Monthly hosting on secure off-site servers",
