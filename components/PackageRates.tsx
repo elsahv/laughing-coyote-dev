@@ -10,40 +10,42 @@ import { motion } from "framer-motion";
 // import {content} from "@/constants";
 
 
+//! SELL BY STORY: CATEGORIZED, SPECIALIZED, AND UNIQUE BRAND SECTIONS
+
 export const content = [
   {
     id: 1,
     image: site1,
     title: "The Growing Pup",
-    item1: "template small brochure single to 3 pages",
-    item2: "-hero/Cta",
-    item3: "-about section",
-    item4: "-contact----- ",
-    item5: "adipisci qui nesciunt ut haru",
-    item6: "Lorem  esse eaque ipsam commodi nisi libero esse",
+    item1: "STANDARD PAGES",
+    item2: "-Home/Welcome (with phone number, hours, address, and directions)",
+    item3: "Our Menu (show everything you offer along with mouth-watering pictures)",
+    item4: "Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)",
+    item5: "Our Story (Tell your customers who you are and why you love ice cream)",
+    item6: "Contact Us (including links to your social media channels)",
      },
   
   {
     id: 2,
     image: site2,
-    title: "The Rising Carnivore/ Omega",
-    item1: "small custom site with:",
-    item2: "domain setup",
-    item3: "hosting",
-    item4: "web design",
-    item5: "adipisci qui nesciunt ut haru",
+    title: "The Rising Carnivore + STANDARD PAGES",
+    item1: "Catering  ",
+    item2: "Blog setup/integration",
+    item3: "Join Our Team Hiring Page",
+    item4: "Join Our Newsletter",
+    item5: "Specials Or Seasonal Promotions",
     item6: "Lorem  esse eaque ipsam commodi nisi libero esse",
     },
   {
     id: 3,
     image: site3,
-    title: "The Alpha",
-    item1: "small site with monthly maintenance",
-    item2: "w/ SUBSCRIPTION SERVICES",
-    item3: "adipisci qui nesciunt ut harum fuga?",
-    item4: " totam inventore",
-    item5: "adipisci qui nesciunt ut haru",
-    item6: "Lorem  esse eaque ipsam commodi nisi libero esse",
+    title: "The Alpha- full website with monthly services  + CARNIVORE AND STANDARD PGS",         //todo: <- MAKE INVISIBLE UNTIL LEARNT RIGHT SKILLS
+    item1: "Online Ordering System (third-party software of your choice. Their rates apply)",
+    item2: "Domain name purchase & annual renewals",
+    item3: "Monthly hosting on secure off-site servers",
+    item4: "Detailed monthly Google Analytics reports",
+    item5: "Events Calendar setup & integration (Third-party, user-managed)",
+    item6: "Monthly security & software updates",
   },
 
   //? ADD "PARK OF THE PACK" ?? 
@@ -72,6 +74,7 @@ const PackageRates = () => {
         <h2 className="font-bold text-onyx drop-shadow-lg">Package rates</h2>
         {/*  //todo CTA REASONS TO CHOOSE THIS SERVICE
              //todo: CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
+             //todo:CANCEL ANYTIME PROMISE
                       
         
         */}

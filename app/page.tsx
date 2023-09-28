@@ -3,20 +3,36 @@ import Websites from '@/components/Websites'
 
 export default function Home() {
   return (
-    <>  
-      <Hero />    
+    <div className="snap-mandatory snap-y">  
+ <section className="snap-start">
+      <Hero />   
+      </section> 
+      <section className="snap-center">
+     <section className="px-[40px] pt-5 border-t-2 border-black">
+        
+    <h2>Your Website Has One Job: Get People In The Door</h2>
+    <p>But your website {'can’t'}do its job if the information is incomplete, people {'aren’t'} finding it on Google, or they {'can’t'}navigate it on their phones.</p>
+    <p> Simply Having A Website Is Not The Goal: More Customers Is Your Goal A strategic website is a tool to get there. There are tools to build your own website, but building your own website is guesswork. Take the guesswork away using our strategy with your website at the core. Our websites help you grow your email list to reach your audience when you have a special, a new product, or simply want to keep your brand front and center. </p>
+</section>
+
       <Dynamic_GridSqs
           containerStyles="dropshadow-lg my-5"
-          Headline="About"
-              SQtitle1="seo"
-              SQparagraph1="The goal of SEO is to increase organic (non-paid) traffic to a website."
-              SQtitle2="speed"
-              SQparagraph2="A fast-loading website is important for user experience and can influence search engine rankings."
-              SQtitle3="Hands Off Services"
-              SQparagraph3="I assist with pretty much everything, leaving you more time to spend on your business"
-              SQtitle4="cancel anytime"
-              SQparagraph4="No hidden fees or surprises!"
+          Headline="About- how it works"
+       
+          SQtitle1="Discovery phase"
+          SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle2="Creative Phase"
+          SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle3="Development Phase"
+          SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle4="Launch Phase"  
+          SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+
            />
+    </section>
        <ServicesIncludes />
        <Websites />
        <PackageRates />
@@ -27,6 +43,6 @@ export default function Home() {
         containerStyles="border border-richBlack dropshadow-md"
       />
 </div>
-    </>
+    </div>
   )
 }

@@ -8,24 +8,25 @@ import { FaMobileAlt } from "react-icons/fa";
 
  export const services = [
   {
-    title: "NextJS Code and Benefits",
-    icon:   <TbBrandNextjs />,
-    paragraph:"Server-Side Rendering (SSR): Next.js allows you to render pages on the server and send fully-rendered HTML pages to the client. This can improve initial page load times and enhance SEO since search engines can easily crawl the content. Client-Side Rendering (CSR): Next.js also supports client-side rendering, which is useful for building dynamic, interactive user interfaces that don't require a full page reload for updates"
+    // title: " SERVICE & SUPPORT",    {/* //todo: CHOOSE TITLE  */}
+    title: "Hands Off Services and Support",
+    icon:   <BsCodeSlash />,
+    paragraph:"I assist with pretty much everything, leaving you more time to spend on your business"
   },
   {
     title: "Development and design advantages",
-    icon:   <BsCodeSlash />,
-    paragraph:"I work with both web design and development."   
+    icon:   <TbBrandNextjs />,
+    paragraph:"A developer with design skills"   
   },
   {
-    title: "Branding unique for your business",
+    title: "seo",
     icon:   <FcShop />,
-    paragraph:"para"   
+    paragraph:"The goal of SEO is to increase organic (non-paid) traffic to a website. Search Engine Optimization is how we make sure people find your ice cream shop when searching in your area. We help Google understand where you’re located and when a relevant customer is looking for your ice cream shop."   
   },
   {
     title: "Jamstack, Headless CMS Benefits",
     icon:   <FaJar />,
-    paragraph:" Flexibility, Performance, Secured Static sites, Scalability, Simplified Hosting and Deployment."   
+    paragraph:" Flexibility, Performance, Secured Static sites, Speedy- (A fast-loading website is important for user experience and can influence search engine rankings), Scalability, Simplified Hosting and Deployment. I work this list of tools with both web design and development."   
   },
   {
     title: "Monthly Analytics",
@@ -40,12 +41,32 @@ import { FaMobileAlt } from "react-icons/fa";
  ]
 
 
+
+    //todo: CHANGE CONTENT TO SERVICES INCLUDES v
+              //* SQtitle1="seo"
+              //* SQparagraph1="The goal of SEO is to increase organic (non-paid) traffic to a website. Search Engine Optimization is how we make sure people find your ice cream shop when searching in your area. We help Google understand where you’re located and when a relevant customer is looking for your ice cream shop."
+              //* SQtitle2="speed"
+              //* SQparagraph2="A fast-loading website is important for user experience and can influence search engine rankings."
+              //* SQtitle3="Hands Off Services"
+              // *SQparagraph3="I assist with pretty much everything, leaving you more time to spend on your business"
+              // SQtitle4="cancel anytime"
+              // SQparagraph4="No hidden fees or surprises!"
+          //todo: CHANGE CONTENT TO SERVICES INCLUDES ^
+
+
+
 const ServicesIncludes = () => {
   return (
     <div className="pt-5">
-      <h2 className="text-black text-center font-bold 2xl:text-4xl text-2xl 2xl:pt-0 pt-5 sm:px-5">
+      {/* <h2 className="text-black text-center font-bold 2xl:text-4xl text-2xl 2xl:pt-0 pt-5 sm:px-5">
       So why choose Laughing Coyote Dev?
-      </h2>
+      </h2>   */}
+  <h3 className="text-black text-center 2xl:text-3xl text-2xl 2xl:pt-0 pt-5 sm:px-5">
+      Services Include:
+      </h3>
+
+
+      
  <section id="services" className="w-full flex justify-center py-5">
    <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
    {services.map((service) => (
