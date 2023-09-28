@@ -7,7 +7,7 @@ const WebDevelopment = () => {
         <ServicesIncludes />
            <DynamicGridSqs
           containerStyles="dropshadow-lg text-center"
-          PgTitle="4 STEP PROCESS- How it works!"
+          Headline="4 STEP PROCESS- How it works!"
    
           SQtitle1="Discovery phase"
           SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
