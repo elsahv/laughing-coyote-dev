@@ -8,8 +8,6 @@ export interface FooterbannerProps {
    containerStyles?: string
 }
 
- {/* //todo-CONDITIONAL STATEMENT- WEB DEV/CONTACT CTA */}
-
 
 const Dynamic_FooterBanner = ({
   title,
@@ -17,25 +15,18 @@ const Dynamic_FooterBanner = ({
   containerStyles
 }: FooterbannerProps) => {
   return (
-    <section className={`bg-onyx text-parchment grid 2xl:grid-cols-2 grid-cols-1 ${containerStyles}`}>
-         <div className="pt-[105px] pl-5 2xl:text-right">
+    <section className={`bg-onyx text-parchment p-5 grid 2xl:grid-cols-2 grid-cols-1 ${containerStyles}`}>
+         <div className="pt-[105px] 2xl:text-right">
           <h3 className="text-3xl font-bold">{title}</h3>
-           <p className="mb-1 text-md">{paragraph}</p>
+           <p className="mb-1 mt-2 text-md">{paragraph}</p>
            </div>
-           
+           {/* //todo: IMP CONTACT FORM v */}
            <ContactForm />
-
-           {/* <div className="bg-carribean p-5"> */}
-           {/* //todo: IMP CONTACT FORM */}
-               {/* <ul className="text-parchment text-lg">
-                <li className="underline text-3xl font-bold">Contact at:</li>
-                <li className="pt-4">laughingcoyotedev@gmail.com</li>
-               </ul>
-               </div> */}
+           {/* //todo ^ */}
+            
        </section> 
   )
 }
 
 export default Dynamic_FooterBanner  
 
- {/* //todo-END */}

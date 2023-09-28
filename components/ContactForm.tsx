@@ -20,9 +20,9 @@ const ContactForm = () => {
         Contact Form
       </h2>
       <form className="flex flex-col gap-y-4 md:w-1/2 w-3/4">
-        <input className="pl-1 border-2 border-black" placeholder="name" />
-        <input className="pl-1 border-2 border-black" placeholder="email"/>
-        <textarea className="pl-1 border-2 border-black" placeholder="message"/>
+        <input className="pl-1 border-2 border-black rounded-lg" placeholder="name" />
+        <input className="pl-1 border-2 border-black rounded-lg" placeholder="email"/>
+        <textarea className="pl-1 border-2 border-black rounded-lg" placeholder="message"/>
         <button className="bg-carribean border border-black w-1/4">Send</button>
       </form>
     </div>

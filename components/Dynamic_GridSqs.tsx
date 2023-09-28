@@ -3,7 +3,7 @@
 
 export interface CustomGridProps {
   containerStyles?: string;
-  PgTitle: string;
+  Headline: string;
   SQtitle1: string;
   SQtitle2: string;
   SQtitle3: string;
@@ -18,7 +18,7 @@ export interface CustomGridProps {
 
 const DynamicGridSqs = ({
   containerStyles,
-  PgTitle,
+  Headline,
   SQtitle1,
   SQtitle2,
   SQtitle3,
@@ -31,7 +31,7 @@ const DynamicGridSqs = ({
   return (
     <div className={`w-full md:px-5 px-1 py-[35px] ${containerStyles} border border-black`}>
       <section className="py-3 px-5">
-    <h3 className="md:text-2xl text-lg  mb-3 text-left">{PgTitle}</h3>
+    <h3 className="md:text-2xl text-lg  mb-3 text-left">{Headline}</h3>
 
 
     <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-2">

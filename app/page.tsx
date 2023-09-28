@@ -7,26 +7,23 @@ export default function Home() {
       <Hero />    
       <Dynamic_GridSqs
           containerStyles="dropshadow-lg my-5"
-          PgTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic earum consequuntur libero facilis, esse obcaecati alias voluptatibus facere iusto. Deleniti quia animi atque voluptates. Veniam adipisci provident voluptas ratione.
-          "
+          Headline="About"
               SQtitle1="seo"
-              SQparagraph1="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+              SQparagraph1="The goal of SEO is to increase organic (non-paid) traffic to a website."
               SQtitle2="speed"
-              SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
-              SQtitle3="24/7"
-              SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+              SQparagraph2="A fast-loading website is important for user experience and can influence search engine rankings."
+              SQtitle3="Hands Off Services"
+              SQparagraph3="I assist with pretty much everything, leaving you more time to spend on your business"
               SQtitle4="cancel anytime"
-              SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+              SQparagraph4="No hidden fees or surprises!"
            />
        <ServicesIncludes />
        <Websites />
        <PackageRates />
-
-
       <div id="contact" className="">
        <Dynamic_FooterBanner
-        title="Web Development CTA- Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sunt, est quas amet aut explicabo tempore quasi autem iure, minus consequatur eveniet tempora unde, eos quia odio accusamus totam praesentium."
+        title="Has my portfolio piqued your interest....? "
+        paragraph="If so, you can contact me at devdesignsbyelsa@gmail.com Looking forward to hearing from you!"
         containerStyles="border border-richBlack dropshadow-md"
       />
 </div>

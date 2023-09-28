@@ -90,15 +90,11 @@ const Websites = () => {
   Endless Designs available
       </h2>
       <p>
-      Endless Designs available- consectetur adipisicing elit. Delectus quaerat labore quod, iure
-        nihil dolorum at nesciunt? Quibusdam quasi natus repudiandae in
-        repellat animi, vitae velit modi, sunt, ipsam facilis.
+      Endless Designs available- The realm of website design is boundless, offering an expansive array of possibilities limited only by imagination. With a diverse range of design elements, color palettes, typography choices, and layout options, the potential permutations are virtually endless. 
       </p>
       <br />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        ea ipsam corrupti suscipit sapiente quisquam odit dolorum totam ad
-        in ab magni eos enim illo iusto delectus sed, unde autem!
+      From sleek and minimalist interfaces to vibrant and interactive experiences, the spectrum of website designs caters to an array of industries, purposes, and target audiences.
       </p>
       </motion.div>
     </section>
