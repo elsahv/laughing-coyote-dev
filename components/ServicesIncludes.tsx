@@ -11,12 +11,12 @@ import { FaMobileAlt } from "react-icons/fa";
     // title: " SERVICE & SUPPORT",    {/* //todo: CHOOSE TITLE  */}
     title: "Hands Off Services and Support",
     icon:   <BsCodeSlash />,
-    paragraph:"I assist with pretty much everything, leaving you more time to spend on your business"
+    paragraph:"I assist with pretty much everything, leaving you more time to spend on your business---The goal of SEO is to increase organic (non-paid) traffic to a website."
   },
   {
     title: "Development and design advantages",
     icon:   <TbBrandNextjs />,
-    paragraph:"A developer with design skills"   
+    paragraph:"A developer with design skills----The goal of SEO is to increase organic (non-paid) traffic to a website."   
   },
   {
     title: "seo",
@@ -68,17 +68,16 @@ const ServicesIncludes = () => {
 
       
  <section id="services" className="w-full flex justify-center py-5">
-   <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
+   <div className="grid md:grid-cols-2 md:grid-rows-3 grid-cols-1 gap-2">
    {services.map((service) => (
     <div className="" key={service.title}>
       <div className="mt-5 flex flex-col text-center">
    <h2 className="2xl:font-normal font-semibold 2xl:text-2xl text-lg">{service.title}</h2>
-   <div className="text-4xl py-2 bg- flex justify-center">
+   <div className="text-4xl 2xl:py-2 py-0 flex justify-center">
     {service.icon}
     </div>
     <section className="flex justify-center">
-   {/* <p className="2xl:w-1/2 w-3/4 text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas culpa voluptatum tempore consequuntur quibusdam, fugit ut deserunt molestiae debitis dolores hic esse veniam sint praesentium quae aliquam, aspernatur, quas laboriosam.</p> */}
-    <p>{service.paragraph}</p>
+    <p className="2xl:w-1/2 w-full px-5">{service.paragraph}</p>
     </section>
     </div>
     </div>

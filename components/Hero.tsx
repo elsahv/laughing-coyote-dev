@@ -34,7 +34,7 @@ const Hero = () => {
 <div className="p-1 mt-5 text-parchment">
             <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
               <Link href="/web-development">
-              Web Development
+              See our Web Designs
               </Link>
               </button>
               <button className="dropshadow-lg bg-carribean hover:text-orange ml-1 px-2 py-1 dropshadow-md">
@@ -52,6 +52,9 @@ const Hero = () => {
           </section>
         </div>
       </div>
+
+
+
     </motion.section>
   );
 };

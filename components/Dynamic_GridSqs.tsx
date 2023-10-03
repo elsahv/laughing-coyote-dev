@@ -31,17 +31,17 @@ const DynamicGridSqs = ({
   return (
     <div className={`w-full md:px-5 px-1 py-[35px] ${containerStyles} border-b-2 border-black`}>
       <section className="py-3 px-5">
-    <h3 className="md:text-2xl text-lg  mb-3 text-left">{Headline}</h3>
+    <h3 className="md:text-2xl text-lg mb-3 text-left">{Headline}</h3>
 
 
-    <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-2">
+    <div className="grid 2xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5">
       <div id="sq" className="">
      <div className="flex items-center">
       <h4 className="font-bold capitialize">
       {SQtitle1}
       </h4>
       </div>
-     <p className="text">{SQparagraph1}</p>
+     <p className="">{SQparagraph1}</p>
      </div>
   
      <div id="sq" className="">

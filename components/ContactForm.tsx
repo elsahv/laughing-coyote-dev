@@ -15,15 +15,18 @@ const ContactForm = () => {
   //   viewport={{ once: true }}
   //   className="mr-5 md:p-5 p-1 bg text-"
   // >
-    <div id="contact-form" className="text-2xl p-5">
-      <h2 className="font-bold md:text-5xl text-3xl pb-5">
+    <div id="contact-form" className="text-2xl p-1">
+      <h2 className="font-bold text-3xl pb-5">
         Contact Form
       </h2>
-      <form className="flex flex-col gap-y-4 md:w-1/2 w-3/4">
-        <input className="pl-1 border-2 border-black rounded-lg" placeholder="name" />
-        <input className="pl-1 border-2 border-black rounded-lg" placeholder="email"/>
-        <textarea className="pl-1 border-2 border-black rounded-lg" placeholder="message"/>
-        <button className="bg-carribean border border-black w-1/4">Send</button>
+      <form className="flex flex-col gap-y-4 2xl:w-1/2 w-full ">
+        <input className="bg-teal text-parchment pl-1 border-2 border-black rounded-lg" placeholder="name" />
+        <input className="bg-teal text-parchment pl-1 border-2 border-black rounded-lg" placeholder="email"/>
+
+        {/* //todo: CREATE QUESTIONAIRE INVOLVING PKG RATES- 'SELECT YOUR DESIRED SECTIONS, PKG" */}
+
+        <textarea className="pl-1 bg-teal border-2 border-black rounded-lg" placeholder="message"/>
+        <button className="bg-carribean text-parchment hover:text-teal rounded border border-black w-1/4">Send</button>
       </form>
     </div>
   // </motion.div>

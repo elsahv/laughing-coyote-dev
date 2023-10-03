@@ -16,20 +16,20 @@ export const content = [
   {
     id: 1,
     image: site1,
-    title: "The Growing Pup",                            //? <- STANDARD PAGES   
+    title: "The Growing Pup- WEBSITE BUILD ",                            //? <- WEBSITE BUILD 
     item1: "STANDARD PAGES",
     item2: "-Home/Welcome (with phone number, hours, address, and directions)",
     item3: "Our Menu (show everything you offer along with mouth-watering pictures)",
     item4: "Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)",
-    item5: "Our Story (Tell your customers who you are and why you love ice cream)",
+    item5: "Our Story (Tell your customers who you are)",
     item6: "Contact Us (including links to your social media channels)",
      },
   
   {
     id: 2,
     image: site2,      
-    title: "The Rising Carnivore + STANDARD PAGES",             //? <- THEMED PAGES                   
-    item1: "Catering  ",
+    title: "The Rising Carnivore-WEBSITE BUILD + SUBSCRIPTION SUPPORT SERVICES      ",             //? <- WEBSITE BUILD + SUBSCRIPTION SUPPORT SERVICES                    
+    item1: "Specialized pages (w/components)  ",
     item2: "Blog setup/integration",                                       
     item3: "Join Our Team Hiring Page",
     item4: "Join Our Newsletter",
@@ -39,7 +39,7 @@ export const content = [
   {
     id: 3,
     image: site3,
-    title: "The Alpha- full website with monthly services  + CARNIVORE AND STANDARD PGS",         //? <- MAKE INVISIBLE UNTIL LEARNT RIGHT SKILLS
+    title: "The Alpha- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT ",         //? <- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT 
     item1: "Online Ordering System (third-party software of your choice. Their rates apply)",
     item2: "Domain name purchase & annual renewals",
     item3: "Monthly hosting on secure off-site servers",

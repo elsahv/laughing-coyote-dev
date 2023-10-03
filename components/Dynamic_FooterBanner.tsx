@@ -15,13 +15,13 @@ const Dynamic_FooterBanner = ({
   containerStyles
 }: FooterbannerProps) => {
   return (
-    <section className={`bg-onyx text-parchment p-5 grid 2xl:grid-cols-2 grid-cols-1 ${containerStyles}`}>
-         <div className="pt-[105px] 2xl:text-right">
-          <h3 className="text-3xl font-bold">{title}</h3>
+    <section className={`bg- p-5 text-onyx grid md:grid-cols-2 grid-cols-1 ${containerStyles}`}>
+         <div className="pt-5 mx-1">
+          <h3 className="lg:text-3xl text-2xl font-bold">{title}</h3>
            <p className="mb-1 mt-2 text-md">{paragraph}</p>
            </div>
-           {/* //todo: IMP CONTACT FORM v */}
-           <ContactForm />
+           {/* //todo: IMP CONTACT FORM v */}          
+           <ContactForm />                            {/* //! CHANGE FORM TO CTA BANNER*/}
            {/* //todo ^ */}
             
        </section> 

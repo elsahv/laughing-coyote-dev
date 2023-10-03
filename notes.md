@@ -1,3 +1,7 @@
+INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
+
+"BUILD, SUPPORT, GROW"
+
 - TODO NOW:
 - contact form comp
 - _finalize front page content_
@@ -8,24 +12,38 @@
 - designs- clickable, view site, imp sanity
 
 Which wild animal are you??
+-CUSTOMIZE, PICK AND CHOOSE WEBSITE
+
 -COYOTE PACKAGES/ Level-
 
-**1.The Growing Pup**
--Home/Welcome (with phone number, hours, address, and directions)
--Our Menu (show everything you offer along with mouth-watering pictures)
--Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)
--Our Story (Tell your customers who you are and why you love ice cream)
--Contact Us (including links to your social media channels)
+- todo: RESEARCH STANDARD PGS
+  **1.The Growing Pup\_\_BUILD**
+  -Home/Welcome (with phone number, hours, address, and directions)
+  -Our Menu (show everything you offer along with mouth-watering pictures)
+  -Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)
+  -Our Story (Tell your customers who you are and why you love ice cream)
+  -Contact Us (including links to your social media channels)
 
-**2.The Rising Carnivore**
--Catering
--Blog setup/integration
--Join Our Team Hiring Page
--Join Our Newsletter
--Specials Or Seasonal Promotions
--Lorem esse eaque ipsam commodi nisi libero esse
+- todo: RESEARCH THEMED PGS
+  **2.The Rising Carnivore\_\_SUPPORT**
+  -Catering
+  -Blog setup/integration
+  -Join Our Team Hiring Page
+  -Join Our Newsletter
+  -Specials Or Seasonal Promotions
+  -BLOG
 
-**3.The Alpha**
+-SHARED NICHE SECTIONS--
+-Gallery
+-FRAMER MOTION
+-STORE(etsy, ebay, store links) CTA-
+-SORT BY CATEGORY BAR
+-FILTER TAGS
+-TWEET/ SM API
+-CAROUSEL/ SLIDER
+-NEWSPAPER
+a
+**3.The Alpha\_\_GROW**
 The Alpha- full website with monthly services + CARNIVORE AND STANDARD PGS
 -Online Ordering System (third-party software of your choice. Their rates apply)
 -Domain name purchase & annual renewals
@@ -33,8 +51,14 @@ The Alpha- full website with monthly services + CARNIVORE AND STANDARD PGS
 -Detailed monthly Google Analytics reports
 -Events Calendar setup & integration (Third-party, user-managed)
 -Monthly security & software updates
+-ENROLL, PAY FOR CTA
+-SANITY: RECIPE CARD
+-VIDEOS
+-AFFILIATES, ADVERTISING
+-JOIN MEMBERSHIPS CTA
+-REVIEWS
 
-4.Part of the pack-- add Social Media, Blog Content,
+<!-- 4.Part of the pack-- add Social Media, Blog Content, -->
 
 - FAQ -
 

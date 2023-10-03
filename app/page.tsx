@@ -1,41 +1,30 @@
-import {  Dynamic_FooterBanner, Dynamic_GridSqs, Hero, PackageRates, ServicesIncludes,  } from '@/components'
-import Websites from '@/components/Websites'
+import { AboutMe, Dynamic_FooterBanner, Hero } from '@/components'
+import DynamicGridSqs from '@/components/Dynamic_GridSqs'
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="snap-mandatory snap-y">  
- <section className="snap-start">
+    <div className="">  
       <Hero />   
-      </section> 
-      <section className="snap-center">
-     <section className="px-[40px] pt-5 border-t-2 border-black">
-        
-    <h2>Your Website Has One Job: Get People In The Door</h2>
-    <p>But your website {'can’t'}do its job if the information is incomplete, people {'aren’t'} finding it on Google, or they {'can’t'}navigate it on their phones.</p>
-    <p> Simply Having A Website Is Not The Goal: More Customers Is Your Goal A strategic website is a tool to get there. There are tools to build your own website, but building your own website is guesswork. Take the guesswork away using our strategy with your website at the core. Our websites help you grow your email list to reach your audience when you have a special, a new product, or simply want to keep your brand front and center. </p>
-</section>
-
-      <Dynamic_GridSqs
-          containerStyles="dropshadow-lg my-5"
-          Headline="About- how it works"
-       
-          SQtitle1="Discovery phase"
+          <>
+          <DynamicGridSqs
+          containerStyles="dropshadow-lg"
+          Headline="We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:"
+   
+          SQtitle1="the information is incomplete"
           SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
        
-          SQtitle2="Creative Phase"
+          SQtitle2="people aren’t finding it on Google,"
           SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
        
-          SQtitle3="Development Phase"
+          SQtitle3="or they can’t navigate it on their phones"
           SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
        
-          SQtitle4="Launch Phase"  
+          SQtitle4="Simply Having A Website Is Not The Goal: getting more customers Is Your Goal!"  
           SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
-
            />
-    </section>
-       <ServicesIncludes />
-       <Websites />
-       <PackageRates />
+          </>
+        <AboutMe />
       <div id="contact" className="">
        <Dynamic_FooterBanner
         title="Has my portfolio piqued your interest....? "
