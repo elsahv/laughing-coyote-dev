@@ -3,7 +3,6 @@ import AboutMe from './AboutMe'
 import ContactForm from './ContactForm'
 import Dynamic_GridSqs from './Dynamic_GridSqs'
 import Dynamic_FooterBanner from './Dynamic_FooterBanner'
-import FAQaccordian from './FAQaccordian'
 import Footer from './Footer'
 import Header from './Header'
 import Hamburger from './Hamburger'
@@ -20,7 +19,6 @@ export {
     ContactForm,
     Dynamic_FooterBanner,
     Dynamic_GridSqs,
-    FAQaccordian,
     Footer,
     Hamburger,
     Header,

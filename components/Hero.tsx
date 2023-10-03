@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Coyote from "../public/coyote.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Dynamic_GridSqs } from ".";
 
 const Hero = () => {
   return (
@@ -52,7 +53,24 @@ const Hero = () => {
           </section>
         </div>
       </div>
-
+      <>
+          <Dynamic_GridSqs
+          containerStyles="dropshadow-lg"
+          Headline="We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:"
+   
+          SQtitle1="the information is incomplete"
+          SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle2="people aren’t finding it on Google,"
+          SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle3="or they can’t navigate it on their phones"
+          SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+       
+          SQtitle4="Simply Having A Website Is Not The Goal: getting more customers Is Your Goal!"  
+          SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+           />
+          </>
 
 
     </motion.section>

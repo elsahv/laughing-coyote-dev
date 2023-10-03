@@ -16,11 +16,11 @@ export const content = [
   {
     id: 1,
     image: site1,
-    title: "The Growing Pup- WEBSITE BUILD ",                            //? <- WEBSITE BUILD 
-    item1: "STANDARD PAGES",
-    item2: "-Home/Welcome (with phone number, hours, address, and directions)",
-    item3: "Our Menu (show everything you offer along with mouth-watering pictures)",
-    item4: "Our Specialties (show those off-menu creations and let customers know why they should drive past ‘the other guy’ to visit you)",
+    title: "The Growing Pup- WEBSITE BUILD  + BASIC SUPPORT SERVICES     ",                            //? <- WEBSITE BUILD 
+    item1: "STANDARD PAGES TEMPLATES (w/ template components)- perfect for when you need something a bit quicker!",
+    item2: "Our Gallery (show everything you offer along with mouth-watering pictures)",
+    item3: "-Home/Welcome (with phone number, hours, address, and directions)",
+    item4: "About (show off and let customers know why they should drive past ‘the other guy’ to visit you)",
     item5: "Our Story (Tell your customers who you are)",
     item6: "Contact Us (including links to your social media channels)",
      },
@@ -29,23 +29,23 @@ export const content = [
     id: 2,
     image: site2,      
     title: "The Rising Carnivore-WEBSITE BUILD + SUBSCRIPTION SUPPORT SERVICES      ",             //? <- WEBSITE BUILD + SUBSCRIPTION SUPPORT SERVICES                    
-    item1: "Specialized pages (w/components)  ",
-    item2: "Blog setup/integration",                                       
-    item3: "Join Our Team Hiring Page",
-    item4: "Join Our Newsletter",
+    item1: "SPECIALIZED PGS (w/ specialized components)",
+    item2: "Monthly hosting on secure off-site servers",                                       
+    item3: "Domain name purchase & annual renewals",
+    item4: "Detailed monthly Google Analytics reports",
     item5: "Specials Or Seasonal Promotions",
-    item6: "Lorem  esse eaque ipsam commodi nisi libero esse",
+    item6: "Monthly security & software updates",
     },
   {
     id: 3,
     image: site3,
-    title: "The Alpha- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT ",         //? <- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT 
-    item1: "Online Ordering System (third-party software of your choice. Their rates apply)",
-    item2: "Domain name purchase & annual renewals",
-    item3: "Monthly hosting on secure off-site servers",
-    item4: "Detailed monthly Google Analytics reports",
-    item5: "Events Calendar setup & integration (Third-party, user-managed)",
-    item6: "Monthly security & software updates",
+    title: "The Alpha- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + A LA CARTE, GROW WITH SEO CONTENT, email marketing ",         //? <- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT 
+    item1: "SEO",
+    item2: "Sanity",
+    item3: "",
+    item4: "",
+    item5: "",
+    item6: "Email Marketing Join Our Newsletter",
   },
 
   //? ADD "PARK OF THE PACK" ?? 
@@ -75,11 +75,7 @@ const PackageRates = () => {
         {/*  //todo CTA REASONS TO CHOOSE THIS SERVICE
              //todo: CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
              //todo:CANCEL ANYTIME PROMISE
-                      
-        
         */}
-
-
         {/*  //todo 4 processes grid?? */}
       <span>Which wild animal are you??</span>   
       </div>
