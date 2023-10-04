@@ -36,17 +36,17 @@ export const content = [
     item5: "Specials Or Seasonal Promotions",
     item6: "Monthly security & software updates",
     },
-  {
-    id: 3,
-    image: site3,
-    title: "The Alpha- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + A LA CARTE, GROW WITH SEO CONTENT, email marketing ",         //? <- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT 
-    item1: "SEO",
-    item2: "Sanity",
-    item3: "",
-    item4: "",
-    item5: "",
-    item6: "Email Marketing Join Our Newsletter",
-  },
+  // {
+  //   id: 3,
+  //   image: site3,
+  //   title: "The Alpha- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + A LA CARTE, GROW WITH SEO CONTENT, email marketing ",         //? <- WEBSITE BUILD + SUPPORT SUBSCRIPTION SERVICES + GROW WITH SEO CONTENT 
+  //   item1: "SEO",
+  //   item2: "Sanity",
+  //   item3: "",
+  //   item4: "",
+  //   item5: "",
+  //   item6: "Email Marketing Join Our Newsletter",
+  // },
 
   //? ADD "PARK OF THE PACK" ?? 
   // {
