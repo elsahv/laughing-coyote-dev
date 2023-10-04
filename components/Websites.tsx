@@ -90,12 +90,15 @@ const Websites = () => {
   Endless Designs available
       </h2>
       <p>
-      Endless Designs available- The realm of website design is boundless, offering an expansive array of possibilities limited only by imagination. With a diverse range of design elements, color palettes, typography choices, and layout options, the potential permutations are virtually endless. 
+     - Here at Laughing Coyote, we work together to not only use your website to display information, but to express {"it's"} individuality and your personality.
       </p>
       <br />
-      <p>
-      From sleek and minimalist interfaces to vibrant and interactive experiences, the spectrum of website designs caters to an array of industries, purposes, and target audiences.
-      </p>
+     
+     
+       <p>
+      View all website template demos cta. 
+      We take all the guesswork out of that. With a diverse range of design elements, color palettes, typography choices, and layout options, and endless designs available
+      </p> 
       </motion.div>
     </section>
     </div>

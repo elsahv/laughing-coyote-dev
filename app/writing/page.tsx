@@ -1,20 +1,14 @@
-import {getProjects} from "@/sanity/sanity-utils"
-
+import Image from "next/image";
+import Sign from '../../public/closedSign.jpg'
 
 export default async function Writing() {
-    const projects = await getProjects()
   return (
-    <div className="h-screem">
+    <div className="h-screen p-5">
       <h2>Writing</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, praesentium? At, accusamus placeat cum dolores culpa autem in amet veritatis labore quibusdam voluptas, adipisci incidunt quae possimus dolore molestiae ad.</p>
-       <>
-         {projects.map((project) => (
-        <div key={project._id}>
-            <h2 className="capitalize pl-1 pt-5">{project.name}</h2> 
-     
-              </div>
-         ))}
-       </>
+      <p>Currently in progress...content coming soon!</p>
+       <div>
+           <Image className="w-1/2" src={Sign} alt="" />
+       </div>
       </div>
   )
 }

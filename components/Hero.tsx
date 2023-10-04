@@ -54,22 +54,42 @@ const Hero = () => {
         </div>
       </div>
       <>
-          <Dynamic_GridSqs
+
+
+      {/* //*: SIMPLIFIED VERSION V*/}
+                 <div className="bg-test1 border border-black flex justify-center">
+                 <div className="p-5">
+                 <p className="font-bold text-lg">We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:</p>
+                    <ul>
+                      <li> <b>-</b> Information displayed, accessible, easier to find on Google</li>
+                      <li> <b>-</b> The ablity to tell your story, owning a website gives you the ablity to tell your business story without any limitations.</li>
+                      <li> <b>-</b> Mobile Optimization- Studies show that majority of website use is through mobile phones and tablets</li>
+                    </ul>
+                    </div>
+                    </div>
+            {/*  //*: SIMPLIFIED VERSION ^ */}
+
+
+
+
+
+          {/* //todo: MAKE VISIBLE WHEN CONTENT READY V
+           <Dynamic_GridSqs
           containerStyles="dropshadow-lg"
-          Headline="We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:"
+          Headline="We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website. "
    
-          SQtitle1="the information is incomplete"
-          SQparagraph1="Decide which package is right for you. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+          SQtitle1="Information displayed and accessible"
+          SQparagraph1="Easier to find on Google"
        
-          SQtitle2="people aren’t finding it on Google,"
-          SQparagraph2="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+          SQtitle2="The ablity to tell your businesses story"
+          SQparagraph2="Owning a website gives you the ablity to tell your business story without any limitations. "
        
-          SQtitle3="or they can’t navigate it on their phones"
-          SQparagraph3="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
+          SQtitle3="Mobile Optimization"
+          SQparagraph3="Studies show that majority of website use is through mobile phones and tablets"
        
-          SQtitle4="Simply Having A Website Is Not The Goal: getting more customers Is Your Goal!"  
-          SQparagraph4="Lorem it reiciendis libero. Fugit repellat omnis cupiditate dolorum perspiciatis. Officia aspernatur omnis, maxime repellendus quas quibusdam quis laborum."
-           />
+          SQtitle4="Cancel anytime"  
+          SQparagraph4="Laughing Coyote is a subscription service that takes care of all your website brochure needs, if ever unsatisfied, you can cancel anytime"
+           />  //todo: MAKE VISIBLE WHEN CONTENT READY ^ */}
           </>
 
 

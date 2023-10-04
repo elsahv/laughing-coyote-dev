@@ -9,7 +9,7 @@ import Hamburger from './Hamburger'
 import Hero from './Hero'
 import Questions from './Questions'
 import ServicesIncludes from './ServicesIncludes'
-import PackageRates from './PackageRates'
+import PkgRates from './PkgRates'
 
 
 
@@ -23,7 +23,7 @@ export {
     Hamburger,
     Header,
     Hero,
-    PackageRates,
+    PkgRates,
     Questions,
     ServicesIncludes
 } 

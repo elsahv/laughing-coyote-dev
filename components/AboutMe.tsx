@@ -1,6 +1,7 @@
 import Image from "next/image"
-import Img from '../public/blue.jpg'
+import SelfImg from '../public/self.jpg'
 import { Dynamic_GridSqs } from "."
+import Link from "next/link"
 
 
 
@@ -11,8 +12,8 @@ const AboutMe = () => {
 
       {/* 1 */}
           <section id="1" className="flex justify-end">
-            <Image className="m-[55px] drop-shadow-md border border-black"
-             src={Img} 
+            <Image className="w-1/2 bg-onyx py-1.5 pl-1 pr-2 m-[55px] drop-shadow-md border border-black"
+             src={SelfImg} 
              alt=""/>
           </section>
 
@@ -20,7 +21,20 @@ const AboutMe = () => {
          
          <section id="2" className="p-5 mt-[55px]">
            <h2 className="mt-5">About</h2>
-           <p>Hi there, {"I'm"} Elsa. I know what its like to be overwhelmed with figuring out web design, selling strategies, and marketing. Save yourself some headaches: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, similique eaque at optio fugit odio esse aut repellendus maxime molestias laboriosam sit eos ex minus, facilis doloremque illum dolorum dolore!</p>
+           <h3 className="font-semibold">Hi there, and welcome to Laughing Coyote!</h3>
+           <p className="pt-5">{"I'm"} Elsa, and I love creating colorful and unconventional websites.</p> {/* //?<-- LINK TO PORTFOLIO?*/}
+           <p className="pt-5">As someone who has started a creative career from the ground up, I know what its like to be overwhelmed with figuring out web design, selling strategies, and marketing.</p>
+           <p className="pt-5">This was what Laughing Coyote Dev was created for, to save you some headaches that come with learning about:</p>
+           <ul>
+            <li className="pt-2">- how to design a website</li>
+            <li className="pt-2">- how to pick a domain and use hosting</li>
+            <li className="pt-2">- and etc! See 
+            <Link href="/#services" className="pl-2">
+            services below!
+            </Link>
+            </li>
+            
+           </ul>
               </section>
 
 
@@ -42,9 +56,9 @@ const AboutMe = () => {
                <li>phases cta link</li>
                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde doloremque, temporibus sapiente blanditiis debitis?</li>
                </ul>
-              </section> //todo: MAKE VISIBLE WHEN MORE CONTENT ^*/}
+              </section>  ^*/}
              </div>
-                <Dynamic_GridSqs
+                {/* <Dynamic_GridSqs
               containerStyles="dropshadow-lg"
               Headline="4 STEP PROCESS- How it works!"
 
@@ -59,7 +73,7 @@ const AboutMe = () => {
 
               SQtitle4="Launch Phase"  
               SQparagraph4="final review and Q&A--> move local website to live server, hosting, client training--> final payment"
-              />
+              /> //todo: MAKE VISIBLE WHEN MORE CONTENT */}
     </div>
   )
 }
