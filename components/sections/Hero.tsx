@@ -1,10 +1,10 @@
   'use client'
 
 import { motion } from "framer-motion";
-import Coyote from "../public/coyote.png";
+import Coyote from "../../public/coyote.png";
 import Image from "next/image";
 import Link from "next/link";
-import { Dynamic_GridSqs } from ".";
+import { Dynamic_GridSqs } from "..";
 
 const Hero = () => {
   return (
@@ -34,12 +34,12 @@ const Hero = () => {
 
 <div className="p-1 mt-5 text-parchment">
             <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
-              <Link href="/web-development">
+              <Link href="/#about">
               About
               </Link>
               </button>
               <button className="dropshadow-lg bg-carribean hover:text-orange ml-1 px-2 py-1 dropshadow-md">
-              <Link href="/contact">
+              <Link href="/#contact">
               Contact
               </Link>
               </button>

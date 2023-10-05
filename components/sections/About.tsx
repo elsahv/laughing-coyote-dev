@@ -1,5 +1,6 @@
+'use client'
 import Image from "next/image"
-import SelfImg from '../public/self.jpg'
+import SelfImg from '../../public/self.jpg'
 import Link from "next/link"
 
 
@@ -11,7 +12,7 @@ const AboutMe = () => {
 
       {/* 1 */}
           <section id="1" className="flex justify-end">
-            <Image className="w-1/2 bg-onyx py-1.5 pl-1 pr-2 m-[55px] drop-shadow-md border border-black"
+            <Image className="2xl:w-1/2 w-full bg-onyx py-1 pl-1 pr-2 m-[55px] drop-shadow-md border border-black"
              src={SelfImg} 
              alt=""/>
           </section>

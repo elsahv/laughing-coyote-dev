@@ -1,22 +1,21 @@
-// 'use client'
-import AboutMe from './AboutMe'
-import ContactSection from './ContactSection'
 import Dynamic_GridSqs from './Dynamic_GridSqs'
 import Dynamic_FooterBanner from './Dynamic_FooterBanner'
 import Footer from './Footer'
 import Header from './Header'
 import Hamburger from './Hamburger'
-import Hero from './Hero'
-import Questions from './Questions'
-import ServicesIncludes from './ServicesIncludes'
-import PkgRates from './PkgRates'
+import About from './sections/About'
+import Contact from './sections/Contact'
+import Hero from './sections/Hero'
+import Services from './sections/Services'
+import PkgRates from './sections/PkgRates'
+import Websites from './sections/Websites'
 
 
 
 
 export {
-    AboutMe,
-    ContactSection,
+    About,
+    Contact,
     Dynamic_FooterBanner,
     Dynamic_GridSqs,
     Footer,
@@ -24,6 +23,6 @@ export {
     Header,
     Hero,
     PkgRates,
-    Questions,
-    ServicesIncludes
+    Services,
+    Websites
 } 

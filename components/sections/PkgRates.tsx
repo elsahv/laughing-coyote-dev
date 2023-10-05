@@ -1,5 +1,9 @@
+'use client'
+
+
 import Image from 'next/image'
 import {IoCheckmarkCircle} from 'react-icons/io5'
+import Link from 'next/link'
 
 
 const PkgRates = () => {
@@ -18,18 +22,20 @@ const PkgRates = () => {
             <div className="mb-4  px-4 py-1.5 bg-carribean">
               <p className="text-parchment text-sm font-bold">THE GROWING PUP</p>
             </div>
-            <p className="mb-6 font-light text-[#636262] md:mb-10 lg:mb-12">WEBSITE BUILD + BASIC SUPPORT SERVICES - perfect for when you need something a bit quicker!</p>
+            <p className="mb-6 font-light text-[#636262] md:mb-10 lg:mb-12">WEBSITE BUILD + BASIC SUPPORT SERVICES - perfect for when you need something Link bit quicker!</p>
             <h2 className="mb-5 text-left text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">$99<span className="text-sm font-light">/year</span>
             </h2>
-            <a href="#" className="bg-orange mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center border-2 border-solid border-black px-8 py-4 text-center font-semibold text-black transition [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px] md:mb-6 lg:mb-8">
-              <div className="mr-6 font-bold">Get Started</div>
+            <Link href="/#contact" className="bg-orange mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center border-2 border-solid border-black px-8 py-4 text-center font-semibold text-black transition [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px] md:mb-6 lg:mb-8">
+              <div className="mr-6 font-bold">
+                <div>Get Started</div>
+                </div>
               <div className="h-4 w-4 flex-none">
                 <svg fill="currentColor" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
                   <title>Arrow Right</title>
                   <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
                 </svg>
               </div>
-            </a>
+            </Link>
             <div className="mt-2 flex flex-row items-center text-left">
               <Image src="" alt="" className="mr-2 inline-block w-5 max-w-full" />
               <IoCheckmarkCircle className="w-[50px]"/>
@@ -56,7 +62,7 @@ const PkgRates = () => {
             </p>
             <h2 className="mb-5 text-left text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">$149<span className="text-sm font-light">/year</span>
             </h2>
-            <a href="#" className="mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center bg-parchment border border-black px-8 py-4 text-center font-semibold  transition  [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px]  md:mb-6 lg:mb-8">
+            <Link href="/#contact" className="mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center bg-parchment border border-black px-8 py-4 text-center font-semibold  transition  [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px]  md:mb-6 lg:mb-8">
               <div className="mr-6 font-black">Get Started</div>
               <div className="h-4 w-4 flex-none">
                 <svg fill="currentColor" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +70,7 @@ const PkgRates = () => {
                   <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
                 </svg>
               </div>
-            </a>
+            </Link>
             <div className="mt-2 flex flex-row items-center text-left">
               <IoCheckmarkCircle className="w-[50px]"/>
               <p className="">SPECIALIZED PGS (w/ specialized components)</p>

@@ -1,19 +1,22 @@
 'use client'
+import Link from "next/link";
 import Hamburger from "./Hamburger";
-import {useRouter} from 'next/navigation'
+// import {useRouter} from 'next/navigation'
 
 
 const Header = () => {
-  const router = useRouter()
+  // const router = useRouter()
 
   return (
     <header className="text-carribean w-full 2xl:pt-3 pt-0 dropshadow-3x">    
       <nav className="flex justify-between py-4 pb-3 px-3 w-full text-2xl">    
         <div className="w-full flex space-between">
       <div id="logo"  className="w-1/2 flex 2xl:flex-row flex-col">
-            <button className="font-bold dropshadow-2xl 2xl:text-3xl text-2xl md:pt-3 pt-0 text-onyx" type="button" onClick={() => router.push('/')}>
+            <div>
+              <Link href="/">
             Laughing Coyote Dev
-            </button>
+            </Link>
+            </div>
       </div>
             
              {/* //todo: MAKE VISIBLE WHEN PAGES ARE READY v */}

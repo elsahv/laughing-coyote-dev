@@ -1,12 +1,12 @@
-import {  Dynamic_FooterBanner, ServicesIncludes } from '@/components'
-import PkgRates from '@/components/PkgRates'
+import {  Dynamic_FooterBanner, Services } from '@/components'
+import PkgRates from '@/components/sections/PkgRates'
 import Websites from '@/components/Websites'
 
 const WebDevelopment = () => {
   return (
     <>
        <Websites />
-       <ServicesIncludes />
+       <Services />
        <PkgRates />
        <Dynamic_FooterBanner
         title="Contact CTA jldkf jkldfja jlkdsfj"

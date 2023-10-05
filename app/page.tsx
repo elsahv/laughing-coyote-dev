@@ -1,13 +1,11 @@
-  import { AboutMe, Dynamic_FooterBanner, Hero, PkgRates, ServicesIncludes } from '@/components'
-import Contact from '@/components/ContactSection'
-import Websites from '@/components/Websites'
+  import { About, Contact, Dynamic_FooterBanner, Hero, PkgRates, Services, Websites } from '@/components'
 
 export default function Home() {
   return (
     <>  
       <Hero />   
-      <AboutMe />
-      <ServicesIncludes />
+      <About />
+      <Services />
       <Websites />
       <PkgRates />
       <Contact />

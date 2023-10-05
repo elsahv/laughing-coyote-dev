@@ -1,3 +1,5 @@
+'use client'
+
 import { FaLinkedin, FaYelp } from "react-icons/fa";
 import DynamicMenu from "./Dynamic_Menu";
 const today = new Date();
