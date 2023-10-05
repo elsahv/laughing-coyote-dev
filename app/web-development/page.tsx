@@ -1,6 +1,6 @@
 import {  Dynamic_FooterBanner, Services } from '@/components'
 import PkgRates from '@/components/sections/PkgRates'
-import Websites from '@/components/Websites'
+import Websites from '@/components/sections/Websites'
 
 const WebDevelopment = () => {
   return (
