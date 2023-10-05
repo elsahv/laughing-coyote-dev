@@ -18,14 +18,14 @@ const PkgRates = () => {
           <p className="text-[#636262]">Simple &amp; fixed pricing. 30 days money-back guarantee</p>
         </div>
         <div className="grid w-full grid-flow-row grid-cols-1 justify-center gap-8 md:grid-cols-2 md:gap-4 lg:w-[70%]">
-          <div className="flex w-full max-w-[416px] flex-col items-start justify-self-start rounded-md border border-solid bg-test1 p-8 max-[767px]:mx-auto max-[767px]:text-left">
+          <div className="border border-black flex w-full max-w-[416px] flex-col items-start justify-self-start rounded-md p-8 max-[767px]:mx-auto max-[767px]:text-left">
             <div className="mb-4  px-4 py-1.5 bg-carribean">
-              <p className="text-sm font-bold">THE GROWING PUP</p>
+              <p className="text-parchment text-sm font-bold">THE GROWING PUP</p>
             </div>
             <p className="mb-6 font-light text-[#636262] md:mb-10 lg:mb-12">WEBSITE BUILD + BASIC SUPPORT SERVICES - perfect for when you need something a bit quicker!</p>
             <h2 className="mb-5 text-left text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">$99<span className="text-sm font-light">/year</span>
             </h2>
-            <a href="#" className="bg-test2 mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center border-2 border-solid border-black px-8 py-4 text-center font-semibold text-black transition [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px] md:mb-6 lg:mb-8">
+            <a href="#" className="bg-orange mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center border-2 border-solid border-black px-8 py-4 text-center font-semibold text-black transition [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px] md:mb-6 lg:mb-8">
               <div className="mr-6 font-bold">Get Started</div>
               <div className="h-4 w-4 flex-none">
                 <svg fill="currentColor" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
@@ -52,16 +52,16 @@ const PkgRates = () => {
               <p className="">Contact Page and form</p>
             </div>
           </div>
-          <div className="flex w-full max-w-[416px] flex-col items-start justify-self-start rounded-md border border-solid border-[#dfdfdf] bg-[#f2f2f7] p-8 max-[767px]:mx-auto max-[767px]:text-left">
-            <div className="mb-4 bg-[#abc4f5] px-4 py-1.5">
+          <div className="flex w-full max-w-[416px] flex-col items-start justify-self-start rounded-md border border-solid border-black bg-test2 p-8 max-[767px]:mx-auto max-[767px]:text-left">
+            <div className="mb-4 text-carribean bg-parchment px-4 py-1.5">
               <p className="text-sm font-bold">THE RISING CARNIVORE</p>
             </div>
             <p className="mb-6 font-light text-[#636262] md:mb-lg:mb-12">WEBSITE BUILD + SUBSCRIPTION SUPPORT SERVICES
             </p>
             <h2 className="mb-5 text-left text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">$149<span className="text-sm font-light">/year</span>
             </h2>
-            <a href="#" className="mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center bg-[#276ef1] px-8 py-4 text-center font-semibold text-white transition [box-shadow:rgb(171,_196,_245)_-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px] md:mb-6 lg:mb-8">
-              <div className="mr-6 font-bold">Get Started</div>
+            <a href="#" className="mb-5 flex w-full max-w-none grid-cols-2 flex-row items-center justify-center bg-parchment border border-black px-8 py-4 text-center font-semibold  transition  [box-shadow:rgb(0,_0,_0)_-8px_8px] hover:[box-shadow:rgb(0,_0,_0)_0px_0px]  md:mb-6 lg:mb-8">
+              <div className="mr-6 font-black">Get Started</div>
               <div className="h-4 w-4 flex-none">
                 <svg fill="currentColor" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
                   <title>Arrow Right</title>

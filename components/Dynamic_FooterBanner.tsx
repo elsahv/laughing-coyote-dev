@@ -20,9 +20,9 @@ const Dynamic_FooterBanner = ({
           <h3 className="lg:text-3xl text-2xl font-bold">{title}</h3>
            <p className="mb-1 mt-2 text-md">{paragraph}</p>
            </div>
-           {/* //todo: IMP CONTACT FORM v */}          
-           <ContactForm />                            {/* //! CHANGE FORM TO CTA BANNER*/}
-           {/* //todo ^ */}
+           {/* <ContactForm /> */}   {/*//todo: <-- MAKE VISIBLE WHEN READY */}
+        <h2>Contact at:</h2>
+          <p> elsahvy@gmail.com</p>               
             
        </section> 
   )

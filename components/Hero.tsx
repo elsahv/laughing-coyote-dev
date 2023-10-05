@@ -35,7 +35,7 @@ const Hero = () => {
 <div className="p-1 mt-5 text-parchment">
             <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
               <Link href="/web-development">
-              See our Web Designs
+              About
               </Link>
               </button>
               <button className="dropshadow-lg bg-carribean hover:text-orange ml-1 px-2 py-1 dropshadow-md">
@@ -57,8 +57,8 @@ const Hero = () => {
 
 
       {/* //*: SIMPLIFIED VERSION V*/}
-                 <div className="bg-test1 border border-black flex justify-center">
-                 <div className="p-5">
+                 <div className="py-5 border border-black flex justify-center">
+                 <div className="px-5">
                  <p className="font-bold text-lg">We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:</p>
                     <ul>
                       <li> <b>-</b> Information displayed, accessible, easier to find on Google</li>

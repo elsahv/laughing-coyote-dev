@@ -29,7 +29,7 @@ const AboutMe = () => {
             <li className="pt-2">- how to design a website</li>
             <li className="pt-2">- how to pick a domain and use hosting</li>
             <li className="pt-2">- and etc! See 
-            <Link href="/#services" className="pl-2">
+            <Link href="/#services" className="pl-1 underline">
             services below!
             </Link>
             </li>

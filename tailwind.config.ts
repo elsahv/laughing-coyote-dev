@@ -22,6 +22,7 @@ const config: Config = {
         test1: "pink",
         test2: "lightgreen",
         teal: "teal",
+        coral: "#FF7F50"
       },
     },
   },

@@ -1,6 +1,6 @@
 // 'use client'
 import AboutMe from './AboutMe'
-import ContactForm from './ContactForm'
+import ContactSection from './ContactSection'
 import Dynamic_GridSqs from './Dynamic_GridSqs'
 import Dynamic_FooterBanner from './Dynamic_FooterBanner'
 import Footer from './Footer'
@@ -16,7 +16,7 @@ import PkgRates from './PkgRates'
 
 export {
     AboutMe,
-    ContactForm,
+    ContactSection,
     Dynamic_FooterBanner,
     Dynamic_GridSqs,
     Footer,
