@@ -8,18 +8,14 @@ export const items = [
   },
   {
     menuItem: 'About',
-    url: '/web-development/#about'
+    url: '/#about'
   },
   {
     menuItem: 'Websites',
     url: '/#websites'
 
   },
-  // {
-  //     menuItem: 'Case Studies',
-  //   url: '/web-development'
 
-  //   },
     {
       menuItem: 'Package Rates',
     url: '/#package-rates'

@@ -1,4 +1,4 @@
-'use client'
+  'use client'
 
 import { motion } from "framer-motion";
 import Coyote from "../public/coyote.png";
@@ -14,7 +14,7 @@ const Hero = () => {
       transition={{ delay: 0.1, duration: 0.5 }}
       whileInView="show"
     >
-      <div id="hero" className="2xl:pt-[120px] pt-[90px]">
+      <div id="" className="2xl:pt-[120px] pt-[90px]">
         <div className="grid 2xl:grid-cols-2 grid-cols-1 h-screen">
           <section className="px-5 flex items-center ">
             <div className="md:pl-[70px] pl-5">
@@ -57,7 +57,7 @@ const Hero = () => {
 
 
       {/* //*: SIMPLIFIED VERSION V*/}
-                 <div className="py-5 border border-black flex justify-center">
+                 <div id="about"className="py-5 border border-black flex justify-center">
                  <div className="px-5">
                  <p className="font-bold text-lg">We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:</p>
                     <ul>

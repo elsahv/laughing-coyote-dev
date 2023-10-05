@@ -8,8 +8,10 @@ INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
 
 - TODO LATER:
 - animations
-- imp Sanity
 - designs- clickable, view site, imp sanity
+- CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
+- SELL BY STORY: CATEGORIZED, SPECIALIZED, AND UNIQUE BRAND SECTIONS
+- \*Diagram that compares my services vs DIY, CTA REASONS TO CHOOSE THIS SERVICE
 
 Which wild animal are you??
 -CUSTOMIZE, PICK AND CHOOSE WEBSITE

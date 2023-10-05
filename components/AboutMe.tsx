@@ -1,13 +1,12 @@
 import Image from "next/image"
 import SelfImg from '../public/self.jpg'
-import { Dynamic_GridSqs } from "."
 import Link from "next/link"
 
 
 
 const AboutMe = () => {
   return (
-    <div className="">
+    <div id="" className="">
     <div className="grid md:grid-cols-2 grid-cols-1">
 
       {/* 1 */}
@@ -37,26 +36,8 @@ const AboutMe = () => {
            </ul>
               </section>
 
-
                {/* 3 //todo: MAKE VISIBLE WHEN MORE CONTENT v*/}
-              {/* <section id="3" className="p-5 bg-test2 border border-black">
-              <h3 className="text-lg font-semibold">Here is what you would have if you took on web design yourself-</h3>
-              <p>list/ cost of everything</p>
-              <ul>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde doloremque, temporibus sapiente blanditiis debitis?</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde doloremque, temporibus sapiente blanditiis debitis?</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde doloremque, temporibus sapiente blanditiis debitis?</li>
-              </ul>
-            </section> */}
-             {/* 4 */}
-              {/* <section id="4" className="p-5 bg-orange border border-black">
-               <h3 className="text-lg font-semibold">Here is what you would have if you went with me</h3>
-               <ul>
-               <li>advantages, what I do</li>
-               <li>phases cta link</li>
-               <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde doloremque, temporibus sapiente blanditiis debitis?</li>
-               </ul>
-              </section>  ^*/}
+              
              </div>
                 {/* <Dynamic_GridSqs
               containerStyles="dropshadow-lg"

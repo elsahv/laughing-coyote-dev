@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <>
  
-<section className="block">
+<section id="contact" className="block">
   <div className="px-5 md:px-10">
     <div className="mx-auto w-full max-w-7xl">
       <div className="py-16 md:py-24 lg:py-32">
@@ -43,7 +43,7 @@ const Contact = () => {
                     </div>
                     <div className="relative mb-5 md:mb-6 lg:mb-8">
                       <label htmlFor="field-3" className="mb-1 font-medium">Project Brief</label>
-                      <textarea placeholder=""  name="field" className="m-0 block h-auto min-h-[128px] w-full overflow-auto border border-solid border-black bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm mb-2.5 px-3 py-2 rounded-md pl-4">														</textarea>
+                      <textarea placeholder=""  name="field" className="m-0 block h-auto min-h-[128px] w-full overflow-auto border border-solid border-black bg-white align-middle text-[#333333] focus:border-[#3898ec] text-sm mb-2.5 px-3 py-2 rounded-md pl-4"/>													 
                     </div>
                     <input type="submit" value="Get free quote" className="m-0 inline-block w-full cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"/>
                   </form>

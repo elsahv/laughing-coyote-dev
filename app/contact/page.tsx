@@ -1,3 +1,5 @@
+import Image from "next/image";
+
  
  
 const Contact = () => {
@@ -17,15 +19,15 @@ const Contact = () => {
             </div>
             <div className="grid gap-[58px] max-[991px]:gap-x-8 max-[767px]:gap-y-12 grid-cols-1 md:grid-cols-3">
               <div className="flex-col flex w-full items-center gap-6 border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px] rounded-2xl">
-                <img src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6a5cb6fdbf914c127_contact%201.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
+                <Image src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6a5cb6fdbf914c127_contact%201.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
                 <a href="tel:+11114434534" className="font-bold text-[#002d40] text-lg lg:text-2xl">+11114434534</a>
               </div>
               <div className="flex-col flex w-full items-center gap-6 border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px] rounded-2xl">
-                <img src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb621086db3a081d24d_contact%202.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
+                <Image src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb621086db3a081d24d_contact%202.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
                 <a href="mailto:Email@email.co" className="font-bold text-[#002d40] text-lg lg:text-2xl">Email@email.co</a>
               </div>
               <div className="flex-col flex w-full items-center gap-6 border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px] rounded-2xl">
-                <img src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6b01ee5b8427e76d9_contact%203.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
+                <Image src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6b01ee5b8427e76d9_contact%203.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
                 <a href="tel:+11114434534" className="font-bold text-[#002d40] text-lg lg:text-2xl">Address</a>
               </div>
             </div>

@@ -1,15 +1,11 @@
+import Image from 'next/image'
 import {IoCheckmarkCircle} from 'react-icons/io5'
 
-    {/*  //todo CTA REASONS TO CHOOSE THIS SERVICE
-             //todo: CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
-             //todo:CANCEL ANYTIME PROMISE
-        //todo 4 processes grid?? */}
-//! SELL BY STORY: CATEGORIZED, SPECIALIZED, AND UNIQUE BRAND SECTIONS
 
 const PkgRates = () => {
   return (
    
-<div className="px-5 md:px-10">
+<div id="package-rates" className="px-5 md:px-10">
   <div className="mx-auto w-full max-w-7xl">
     <div className="py-16 md:py-24 lg:py-32">
       <div className="flex flex-col items-center justify-start max-[767px]:text-center">
@@ -35,7 +31,7 @@ const PkgRates = () => {
               </div>
             </a>
             <div className="mt-2 flex flex-row items-center text-left">
-              {/* <img src="https://assets.website-files.com/6349673741be864f5181a830/6349673741be8677e981a8c9_tick-circle.svg" alt="" className="mr-2 inline-block w-5 max-w-full" /> */}
+              <Image src="" alt="" className="mr-2 inline-block w-5 max-w-full" />
               <IoCheckmarkCircle className="w-[50px]"/>
               <p className="">STANDARD PAGES TEMPLATES (w/ template components)</p>
             </div>
