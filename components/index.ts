@@ -9,6 +9,7 @@ import Hero from './sections/Hero'
 import Services from './sections/Services'
 import PkgRates from './sections/PkgRates'
 import Websites from './sections/Websites'
+import Test from './Test'
 
 
 
@@ -24,5 +25,6 @@ export {
     Hero,
     PkgRates,
     Services,
-    Websites
+    Websites,
+    Test
 } 

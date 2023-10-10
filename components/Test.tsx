@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-const ContactForm: React.FC = () => {
+const Test: React.FC = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -82,17 +82,14 @@ const ContactForm: React.FC = () => {
           required
         />
       </div>
-      <div className="my-3">
-      <input type="submit" value="Get free quote" className="hover:bg-test2 hover:text-teal rounded mt-4 inline-block w-1/2 cursor-pointer items-center bg-black px-4 py-2 text-center font-semibold text-white"/>
-    </div>
+      <input type="submit" value="Get free quote" className="m-0 inline-block w-full cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"/>
     </form>
-
     </div>
-      </div>
+              </div>
     </div>
     </div>
     </div>
   );
 };
 
-export default ContactForm;
+export default Test;
