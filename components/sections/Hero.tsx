@@ -19,18 +19,33 @@ const Hero = () => {
           <section className="px-5 flex items-center ">
             <div className="md:pl-[70px] pl-5">
               <div className="py-1 mb-1">
-                <h1 className="text-2xl font-bold">The Laughing Coyote</h1>
+                <h1 className="text-4xl font-bold">Laughing Coyote Dev</h1>
                 <h3 className="text-2xl font-bold">
                   Web design for small businesses and creatives
                 </h3>
               </div>
-              <p className="pb-5">
-                Why should you prefer a custom-made website, when you can simply
-                use wix or wordpress? Why should you prefer a custom-made
+              {/* <p className="pb-5">
+               Why should you prefer a custom-made
                 website, when you can simply use wix or wordpress? Because a
                 custom website fits your business, personality, goals... and you
                 alone.
-              </p>
+              </p> */}
+<div id="about"className="py-5 border border-black flex justify-center">
+                 <div className="px-5">
+                 <p className="text-lg">Laughing Coyote Dev is a subscription service for busy small businesses owners.</p>
+                    <ul>
+                      <li> <b>-</b> Increased potential customers, easier to find on Google</li>
+                      <li> <b>-</b> The ablity to tell your story and brand</li>
+                      <li> <b>-</b> Peace of mind... for business owners who {"don't"} have time to build with software</li>
+                      <li> <b>-</b> A custom website that fits your business, personality, goals... and you
+                alone.</li>
+                    </ul>
+                    </div>
+                    </div>
+
+
+
+
 
 <div className="p-1 mt-5 text-parchment">
             <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
@@ -56,18 +71,7 @@ const Hero = () => {
       <>
 
 
-      {/* //*: SIMPLIFIED VERSION V*/}
-                 <div id="about"className="py-5 border border-black flex justify-center">
-                 <div className="px-5">
-                 <p className="font-bold text-lg">We have one main goal, to get more views towards your business! With Laughing Coyote Dev, you get more than just a website:</p>
-                    <ul>
-                      <li> <b>-</b> Information displayed, accessible, easier to find on Google</li>
-                      <li> <b>-</b> The ablity to tell your story, owning a website gives you the ablity to tell your business story without any limitations.</li>
-                      <li> <b>-</b> Mobile Optimization- Studies show that majority of website use is through mobile phones and tablets</li>
-                    </ul>
-                    </div>
-                    </div>
-            {/*  //*: SIMPLIFIED VERSION ^ */}
+                 
 
 
 

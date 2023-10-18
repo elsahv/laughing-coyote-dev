@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import site1 from "../../public/assets/screenshots/site1.png";
 import site2 from "../../public/assets/screenshots/site2.png";
 import site3 from "../../public/assets/screenshots/designs/fish-expo-demo.png";
@@ -15,27 +15,27 @@ const content = [
   
     {
       image: site2,
-      url: "https://template-left-nav-journal-layout-1.vercel.app/",
+      // url: "https://template-left-nav-journal-layout-1.vercel.app/",
     },
     {
       image: site3,
-      url: "https://lc-fish-expo-demo.vercel.app/",
+      // url: "https://lc-fish-expo-demo.vercel.app/",
     },
     {
         image: site4,
-        url: "https://lc-fish-expo-demo.vercel.app/",
+        // url: "https://lc-fish-expo-demo.vercel.app/",
       },
     {
         image: site5,
-        url: "https://hoveyroofing.com/",
+        // url: "https://hoveyroofing.com/",
       },
       {
         image: site6,
-        url: "https://template-left-nav-journal-layout-1.vercel.app/",
+        // url: "https://template-left-nav-journal-layout-1.vercel.app/",
       },
       {
         image: site7,
-        url: "https://template-left-nav-journal-layout-1.vercel.app/",
+        // url: "https://template-left-nav-journal-layout-1.vercel.app/",
       },
      
   ];
@@ -48,33 +48,33 @@ const Websites = () => {
 
 <div className="grid 2xl:grid-cols-3 grid-cols-2 gap-4">
   <div className="bg-test1">
-   <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+   {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
     <Image className="h-[100%] border-2 border-sienna rounded"
      src={site1}
      alt=""
      />
-   </Link>
+   {/* </Link> */}
     </div>
 
 
 
   <div className="bg-test2">
 
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site2}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
   <div className="bg-test1">
 
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site3}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
 
   {/* //*SECTION CONTENT  v*/}
@@ -95,15 +95,9 @@ const Websites = () => {
   Endless Designs available
       </h2>
       <p>
-     - Here at Laughing Coyote, we work together to not only use your website to display information, but to express {"it's"} individuality and your personality.
+     - Custom and unique designs available. Here at Laughing Coyote, we work together to not only use your website to display information, but to express {"it's"} individuality and your personality.
       </p>
-      <br />
-     
-     
-       <p>
-      View all website template demos cta. 
-      We take all the guesswork out of that. With a diverse range of design elements, color palettes, typography choices, and layout options, and endless designs available
-      </p> 
+  
       </motion.div>
     </section>
     </div>
@@ -112,38 +106,38 @@ const Websites = () => {
 
   <div className="bg-test1">
 
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site4}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
   <div className="bg-test2">
 
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site5}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
   <div className="bg-test1">
 
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site6}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
   <div className="bg-test2">
-  <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/">
+  {/* <Link href="https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/"> */}
   <Image className="h-[100%] border-2 border-sienna rounded"
      src={site7}
      alt=""
      />
-       </Link>
+       {/* </Link> */}
   </div>
 </div>
 

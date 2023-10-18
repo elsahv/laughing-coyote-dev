@@ -3,7 +3,7 @@ INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
 "BUILD, SUPPORT, GROW"
 
 - TODO NOW:
-- contact form comp
+
 - _finalize front page content_
 
 - TODO LATER:

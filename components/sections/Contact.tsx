@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
         
             <div className="mb-8 max-w-[480px]">
-              <p className="max-[479px]:text-sm">Fill out the form to start your consultation process!</p>
+              <p className="max-[479px]:text-sm">Looking forward to hearing from you!</p>
             </div>
             </section>
           </div>

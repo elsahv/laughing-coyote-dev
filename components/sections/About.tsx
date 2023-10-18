@@ -20,9 +20,8 @@ const AboutMe = () => {
        {/* 2 */}
          
          <section id="2" className="p-5 mt-[55px]">
-           <h2 className="mt-5">About</h2>
-           <h3 className="font-semibold">Hi there, and welcome to Laughing Coyote!</h3>
-           <p className="pt-5">{"I'm"} Elsa, and I love creating colorful and unconventional websites.</p> {/* //?<-- LINK TO PORTFOLIO?*/}
+           <h2 className="mt-5 text-2xl">About</h2>
+           <p className="pt-5">Hi there, and welcome! {"I'm"} Elsa, and I love creating colorful and unconventional websites.</p> {/* //?<-- LINK TO PORTFOLIO?*/}
            <p className="pt-5">As someone who has started a creative career from the ground up, I know what its like to be overwhelmed with figuring out web design, selling strategies, and marketing.</p>
            <p className="pt-5">This was what Laughing Coyote Dev was created for, to save you some headaches that come with learning about:</p>
            <ul>
