@@ -37,9 +37,8 @@ import { FaMobileAlt } from "react-icons/fa";
 const Services = () => {
   return (
     <div  id="services" className="h-screen flex items-center">
-    
       <div className="">
-  <h3 className="text-black text-center 2xl:text-3xl text-2xl 2xl:pt-0 pt-5 sm:px-5 underline">
+  <h3 className="text-black font-semibold text-center 2xl:text-3xl text-2xl 2xl:pt-0 pt-5 sm:px-5 underline">
       Services Include:
       </h3>
 

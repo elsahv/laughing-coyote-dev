@@ -1,4 +1,5 @@
   import { About, Contact, Dynamic_FooterBanner, Hero, PkgRates, Services, Websites } from '@/components'
+import CaseStudies from '@/components/sections/CaseStudies'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Services />
       <Websites />
       <PkgRates />
+      <CaseStudies />
       <Contact />
 
       {/* <Dynamic_FooterBanner
