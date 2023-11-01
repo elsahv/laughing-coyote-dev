@@ -9,6 +9,7 @@ const caseStudies = [
 {
 title:'HoveyRoofing',
 img:Img1,
+img1:Img1,
 p:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur voluptatibus aliquam sint dicta nihil perferendis or sit amet consectetur adipisicing elit. Ullam consequuntur voluptatibus aliquam sint dicta nihil perferendis harum a fuga! Id suscipit totam aut exercitationem hic odit porro vitae excepturi or sit amet consectetur adipisicing elit. Ullam consequuntur voluptatibus aliquam sint dicta nihil perferendis or sit amet consectetur adipisicing elit. Ullam consequuntur voluptatibus aliquam sint dicta nihil perferendis illo!",
 url: "https://hoveyroofing.com"
 },
@@ -21,11 +22,18 @@ url: "https://ie-backflow-ixj3fuw24-elsahv.vercel.app/"
 ]
 
 
+//todo: UPDATE CASE STUDIES- imp sanity blog posts format  
+
 const CaseStudies = () => {
   return (
-    <div id="case-studies" className="px-5">
-      <div className="bg-black text-white w-1/2">
+    <div id="case-studies" className="px-5 mt-[155px] bg-test1">
+      <div className="p-5">
+      <div className="text-black">
         <h2 className="text-5xl underline font-bold text-center">Case Studies</h2>
+        <div className="">
+        <p className="py-5 px-[155px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quo atque fuga. Corporis doloremque sit minus, asperiores quia suscipit nihil maxime consequatur, debitis, velit inventore nostrum! Dicta alias corporis numquam. t amet consectetur adipisicing elit. Rerum quo atque fuga. Corporis doloremque sit minus, asperiores quia suscipit nihil maxime consequatur, debitis, velit inventore nostrum! Dicta alias corporis numquam.</p>
+ </div>
+ </div>
  </div>
         {/* //* GRID STARTS HERE */}
         <div className="grid 2xl:grid-cols-2 grid-cols-1 gap-4 my-3 pt-[50px]">

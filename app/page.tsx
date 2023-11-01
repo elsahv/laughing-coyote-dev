@@ -9,7 +9,7 @@ export default function Home() {
       <Services />
       <Websites />
       <PkgRates />
-      <CaseStudies />
+      {/* <CaseStudies /> */}
       <Contact />
 
       {/* <Dynamic_FooterBanner

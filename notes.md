@@ -2,16 +2,15 @@ INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
 
 "BUILD, SUPPORT, GROW"
 
-- TODO NOW:
+- TODOS BOOKMARKS:
+  //todo: UPDATE CASE STUDIES- imp sanity blog posts format
 
-- _finalize front page content_
-
-- TODO LATER:
-- animations
-- designs- clickable, view site, imp sanity
-- CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
-- SELL BY STORY: CATEGORIZED, SPECIALIZED, AND UNIQUE BRAND SECTIONS
-- \*Diagram that compares my services vs DIY, CTA REASONS TO CHOOSE THIS SERVICE
+- TO DO LATER:
+  -animations
+  -designs- clickable, view site, imp sanity
+  -CREATE CHART- ESTIMATE HOW MUCH TO CREATE AND LEARN WEBSITE VS USE LC SERCVICES
+  -SELL BY STORY: CATEGORIZED, SPECIALIZED, AND UNIQUE BRAND SECTIONS
+  -Diagram that compares my services vs DIY, CTA REASONS TO CHOOSE THIS SERVICE
 
 Which wild animal are you??
 -CUSTOMIZE, PICK AND CHOOSE WEBSITE
