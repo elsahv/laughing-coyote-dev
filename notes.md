@@ -2,8 +2,8 @@ INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
 
 "BUILD, SUPPORT, GROW"
 
-- TODOS BOOKMARKS:
-  //todo: UPDATE CASE STUDIES- imp sanity blog posts format
+- TODOS CURRENTLY:
+- 3 create dynamic, interchangable, basic templates
 
 - TO DO LATER:
   -animations

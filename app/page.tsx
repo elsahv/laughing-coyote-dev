@@ -1,4 +1,5 @@
-  import { About, Contact, Dynamic_FooterBanner, Hero, PkgRates, Services, Websites } from '@/components'
+  import { About, Contact, Dynamic_FooterBanner, Hero, PkgRates, Services, Test, Websites } from '@/components'
+import BasicTemplates from '@/components/BasicTemplates'
 import CaseStudies from '@/components/sections/CaseStudies'
 
 export default function Home() {
@@ -7,8 +8,12 @@ export default function Home() {
       <Hero />   
       <About />
       <Services />
+
       <Websites />
       <PkgRates />
+       <BasicTemplates />
+
+      {/* <Test /> */}
       {/* <CaseStudies /> */}
       <Contact />
 
