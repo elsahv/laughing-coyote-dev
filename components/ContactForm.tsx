@@ -43,8 +43,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div>
-    <div className="mx-auto max-w-[608px] bg-coral px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8">
+    <div className="mx-auto max-w-[608px] bg-teal rounded border border-black px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8">
     <div className="">
     <h3 className="font-bold text-lg md:text-3xl">Fill out the form below for an initial free website conversation</h3>
     <div className="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
@@ -54,7 +53,7 @@ const ContactForm: React.FC = () => {
     <form className="flex flex-col" onSubmit={handleSubmit}>
       <div className="flex flex-col">
         <label className="mb-1 font-medium" htmlFor="name">Name:</label>
-        <input className="m-0 mb-4 block w-full border border-solid border-black align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 rounded-md h-9 py-6 pl-4"
+        <input className="bg-parchment m-0 mb-4 block w-full border border-solid border-black align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 rounded-md h-9 py-6 pl-4"
           type="text"
           id="name"
           value={name}
@@ -64,7 +63,7 @@ const ContactForm: React.FC = () => {
       </div>
       <div className="flex flex-col">
         <label className="mb-1 font-medium" htmlFor="email">Email:</label>
-        <input className="m-0 mb-4 block w-full border border-solid border-black align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 rounded-md h-9 py-6 pl-4"
+        <input className="bg-parchment m-0 mb-4 block w-full border border-solid border-black align-middle text-[#333333] focus:border-[#3898ec] text-sm px-3 rounded-md h-9 py-6 pl-4"
           type="email"
           id="email"
           value={email}
@@ -74,7 +73,7 @@ const ContactForm: React.FC = () => {
       </div>
       <div className="flex flex-col">
         <label className="mb-1 font-medium" htmlFor="message">Message:</label>
-        <textarea className="bg-teal-200 border border-black"
+        <textarea className="rounded bg-parchment border border-black"
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
@@ -88,7 +87,6 @@ const ContactForm: React.FC = () => {
 
     </div>
       </div>
-    </div>
     </div>
     </div>
   );

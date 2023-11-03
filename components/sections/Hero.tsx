@@ -20,9 +20,7 @@ const Hero = () => {
             <div className="md:pl-[70px] pl-5">
               <div className="py-1 mb-1">
                 <h1 className="text-4xl font-bold">Laughing Coyote Dev</h1>
-                <h3 className="text-2xl font-bold">
-                  Web design for small businesses and creatives
-                </h3>
+                <p className="text-2xl font-semibold pl-1 pt-1">A subscription website service for busy small-businesses owners.</p>
               </div>
               {/* <p className="pb-5">
                Why should you prefer a custom-made
@@ -30,24 +28,20 @@ const Hero = () => {
                 custom website fits your business, personality, goals... and you
                 alone.
               </p> */}
-<div id="about"className="py-5 flex justify-center">
-                 <div className="px-5">
-                 <p className="text-lg">Laughing Coyote Dev is a subscription service for busy small businesses owners.</p>
-                    <ul>
+
+                    <ul className="text-lg pt-1">
                       <li> <b>-</b> Increased potential customers, easier to find on Google</li>
                       <li> <b>-</b> The ablity to tell your story and brand</li>
                       <li> <b>-</b> Peace of mind... for business owners who {"don't"} have time to build with software</li>
                       <li> <b>-</b> A custom website that fits your business, personality, goals... and you
                 alone.</li>
                     </ul>
-                    </div>
-                    </div>
 
 
 
 
 
-<div className="p-1 mt-5 text-parchment">
+<div className="p-1 mt-5 text-parchment text-lg">
             <button className="dropshadow-lg bg-teal hover:text-white mr-1 px-2 py-1 dropshadow-md">
               <Link href="/#about">
               About

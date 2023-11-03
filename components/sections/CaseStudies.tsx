@@ -28,7 +28,7 @@ const CaseStudies = () => {
   return (
     <div id="case-studies" className="px-5 mt-[155px] bg-test1">
       <div className="p-5">
-      <div className="text-black">
+      <div className="">
         <h2 className="text-5xl underline font-bold text-center">Case Studies</h2>
         <div className="">
         <p className="py-5 px-[155px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quo atque fuga. Corporis doloremque sit minus, asperiores quia suscipit nihil maxime consequatur, debitis, velit inventore nostrum! Dicta alias corporis numquam. t amet consectetur adipisicing elit. Rerum quo atque fuga. Corporis doloremque sit minus, asperiores quia suscipit nihil maxime consequatur, debitis, velit inventore nostrum! Dicta alias corporis numquam.</p>

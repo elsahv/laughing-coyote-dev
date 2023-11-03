@@ -91,7 +91,7 @@ const Websites = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
     >
-  <h2 className="text-black font-bold 2xl:text-4xl md:text-3xl text-2xl 2xl:my-5">
+  <h2 className="font-bold 2xl:text-4xl md:text-3xl text-2xl 2xl:my-5">
   Endless Designs available
       </h2>
       <p>

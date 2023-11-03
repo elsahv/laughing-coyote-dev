@@ -7,34 +7,29 @@ import Link from "next/link"
 
 const AboutMe = () => {
   return (
-    <div id="" className="">
-    <div className="grid md:grid-cols-2 grid-cols-1">
-
-      {/* 1 */}
-          <section id="1" className="flex justify-end">
+    <div className="">
+    <div id="about-grid" className="grid md:grid-cols-2 grid-cols-1">
+          <div id="img-wrapper" className="flex justify-end">
             <Image className="2xl:w-1/2 w-full bg-onyx py-1 pl-1 pr-2 m-[55px] drop-shadow-md border border-black"
              src={SelfImg} 
              alt=""/>
-          </section>
-
-       {/* 2 */}
-         
-         <section id="2" className="p-5 mt-[55px]">
-           <h2 className="mt-5 text-2xl">About</h2>
-           <p className="pt-5">Hi there, and welcome! {"I'm"} Elsa, and I love creating colorful and unconventional websites.</p> {/* //?<-- LINK TO PORTFOLIO?*/}
-           <p className="pt-5">As someone who has started a creative career from the ground up, I know what its like to be overwhelmed with figuring out web design, selling strategies, and marketing.</p>
-           <p className="pt-5">This was what Laughing Coyote Dev was created for, to save you some headaches that come with learning about:</p>
+          </div>
+         <div id="about-me" className="p-5 mt-[55px] text-lg">
+           <h2 className="mt-5 text-3xl underline">About</h2>
+           <p className="pt-">Hi there, and welcome! {"I'm"} Elsa, and I love creating colorful and unconventional websites.</p> {/* //?<-- LINK TO PORTFOLIO?*/}
+           <p className="">As someone who has started a creative career from the ground up, I know what its like to be overwhelmed with figuring out web design, selling strategies, and marketing.</p>
+           <p className="pt-[55px]">This was what Laughing Coyote Dev was created for, to save you some headaches that come with learning about:</p>
            <ul>
-            <li className="pt-2">- how to design a website</li>
-            <li className="pt-2">- how to pick a domain and use hosting</li>
-            <li className="pt-2">- and etc! See 
+            <li className="">- how to design a website</li>
+            <li className="">- how to pick a domain and use hosting</li>
+            <li className="">- and etc! See 
             <Link href="/#services" className="pl-1 underline">
             services below!
             </Link>
             </li>
             
            </ul>
-              </section>
+              </div>
 
                {/* 3 //todo: MAKE VISIBLE WHEN MORE CONTENT v*/}
               
