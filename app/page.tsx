@@ -1,5 +1,5 @@
   import { About, Contact, Dynamic_FooterBanner, Hero, PkgRates, Services, Test, Websites } from '@/components'
-import BasicTemplates from '@/components/sections/BasicTemplates'
+import Templates from '@/components/sections/Templates'
 import CaseStudies from '@/components/sections/CaseStudies'
 
 export default function Home() {
@@ -8,11 +8,9 @@ export default function Home() {
       <Hero />   
       <About />
       <Services />
-
       <Websites />
-       <BasicTemplates />    {/* //todo:  <-- CTA TO PKG RATE TEMPLATES */}  
-      <PkgRates />          {/* //todo:  <-- CTA TO BASIC TEMPLATES */}       
-
+       <Templates />    {/* //todo:  <-- CTA TO PKG RATE TEMPLATES */}  
+       <PkgRates /> {/*  //todo:  <-- CTA TO BASIC TEMPLATES */}       
       {/* <Test /> */}
       {/* <CaseStudies /> */}
       <Contact />

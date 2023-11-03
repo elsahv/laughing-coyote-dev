@@ -30,7 +30,7 @@ const Hero = () => {
                 custom website fits your business, personality, goals... and you
                 alone.
               </p> */}
-<div id="about"className="py-5 border border-black flex justify-center">
+<div id="about"className="py-5 flex justify-center">
                  <div className="px-5">
                  <p className="text-lg">Laughing Coyote Dev is a subscription service for busy small businesses owners.</p>
                     <ul>
