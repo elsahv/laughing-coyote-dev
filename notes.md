@@ -1,9 +1,15 @@
 INSPIRATION SERVICES AND FANCY SIDE ACCORDIAN: https://robinwriter.com/services/
 
 "BUILD, SUPPORT, GROW"
+"BUILT TO SIMPLIFY THE PROCESS OF SHOWING YOUR ART ONLINE"
 
-- TODOS CURRENTLY:
-- 3 create dynamic, interchangable, basic templates
+_TODOS CURRENTLY:_
+_3 create dynamic, interchangable, basic templates:_
+_business card layout_ {/_ REF- https://i.pinimg.com/736x/17/5d/d8/175dd87c15c8849ceb0d1f353b7e3cb9.jpg, https://i.pinimg.com/736x/f1/33/e3/f133e38ae8e342fe8aba803bd4dc1125.jpg_/}
+_3 pg comp_ {/_ REF- https://lc-fish-expo-demo.vercel.app/_/}
+_single pg journal_ {/_ REF- https://template-left-nav-journal-layout-1.vercel.app/_/}
+
+About Us/ Testimonials/ Case Studies- https://tailspark.co/?component=About%20Us
 
 - TO DO LATER:
   -animations
