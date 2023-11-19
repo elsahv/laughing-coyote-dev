@@ -8,7 +8,7 @@ const config: Config = {
   ],
 
 
-  //todo: FINALIZE COLORS, IMPLEMENT BUTTON, GRID 
+    
   theme: {
     extend: {
       colors: {

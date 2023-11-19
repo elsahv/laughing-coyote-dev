@@ -22,7 +22,7 @@ url: "https://ie-backflow-ixj3fuw24-elsahv.vercel.app/"
 ]
 
 
-//todo: UPDATE CASE STUDIES- imp sanity blog posts format  
+//todo later: UPDATE CASE STUDIES- imp sanity blog posts format  
 
 const CaseStudies = () => {
   return (

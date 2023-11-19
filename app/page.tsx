@@ -9,8 +9,8 @@ export default function Home() {
       <About />
       <Services />
       <Websites />
-       <Templates />    {/* //todo:  <-- CTA TO PKG RATE TEMPLATES */}  
-       <PkgRates /> {/*  //todo:  <-- CTA TO BASIC TEMPLATES */}       
+      <Templates />    
+       <PkgRates /> 
       {/* <Test /> */}
       {/* <CaseStudies /> */}
       <Contact />

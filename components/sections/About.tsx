@@ -31,7 +31,7 @@ const AboutMe = () => {
            </ul>
               </div>
 
-               {/* 3 //todo: MAKE VISIBLE WHEN MORE CONTENT v*/}
+               {/* 3 //todo later: MAKE VISIBLE WHEN MORE CONTENT v*/}
               
              </div>
                 {/* <Dynamic_GridSqs
@@ -49,7 +49,7 @@ const AboutMe = () => {
 
               SQtitle4="Launch Phase"  
               SQparagraph4="final review and Q&A--> move local website to live server, hosting, client training--> final payment"
-              /> //todo: MAKE VISIBLE WHEN MORE CONTENT */}
+              /> //todo later: MAKE VISIBLE WHEN MORE CONTENT */}
     </div>
   )
 }

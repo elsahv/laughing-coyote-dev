@@ -62,13 +62,13 @@ const Templates = () => {
           <div id="paragraph-container" className="p-3">
           <p className="md:text-md text-sm">{template.p}</p>
           </div>
-          {/* //todo: ADD SLUG TO DESCRIBE WEBSITES MORE IN DETAIL v */}
+          {/* //todo later: ADD SLUG TO DESCRIBE WEBSITES MORE IN DETAIL v */}
           {/* <div id="bottom-bar-container" className="p-3">
             <div id="sm-container" className="flex">
           <div className="text-parchment bg-onyx py-1 px-2 text-sm">View Template</div>
           </div>
           </div> */}
-          {/* //todo: ADD SLUG TO DESCRIBE WEBSITES MORE IN DETAIL ^ */}
+          {/* //todo later: ADD SLUG TO DESCRIBE WEBSITES MORE IN DETAIL ^ */}
      </div>
 
      

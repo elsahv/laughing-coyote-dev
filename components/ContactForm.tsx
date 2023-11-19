@@ -17,15 +17,14 @@ const ContactForm: React.FC = () => {
       message: message,
     };
 
-    //todo: FIGURE OUT WHY .ENV ISNT WORKING v
+    //todo sooner: FIGURE OUT WHY .ENV ISNT WORKING v
     emailjs
       .send(
         "service_8nm4fjs",
         "template_ua2cv0e",
         templateParams,
         "axTnvligI9DLgch9A"
-    //todo: FIGURE OUT WHY .ENV ISNT WORKING v
-          //todo: FIGURE OUT WHY .ENV ISNT WORKING v
+          //todo sooner: FIGURE OUT WHY .ENV ISNT WORKING ^
 
       
         )
@@ -43,13 +42,13 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="mx-auto max-w-[608px] bg-teal rounded border border-black px-8 max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8">
+    <div className="mx-auto max-w-[608px] rounded max-[991px]:ml-0 max-[991px]:mr-0 pt-[2em] pb-8">
     <div className="">
     <h3 className="font-bold text-lg md:text-3xl">Fill out the form below for an initial free website conversation</h3>
     <div className="mx-auto mt-4 max-w-[480px] mb-5 md:mb-6 lg:mb-8">
               </div>
               <div className="mx-auto w-full max-w-[400px]">
-                <div className="mx-auto max-w-[400px] text-left mb-4">
+                <div className="mx-auto text-left mb-4">
     <form className="flex flex-col" onSubmit={handleSubmit}>
       <div className="flex flex-col">
         <label className="mb-1 font-medium" htmlFor="name">Name:</label>
