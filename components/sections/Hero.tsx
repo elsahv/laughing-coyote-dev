@@ -17,7 +17,7 @@ const Hero = () => {
       <div id="" className="2xl:pt-[120px] pt-[90px]">
         <div className="grid 2xl:grid-cols-2 grid-cols-1 h-screen">
           <section className="2xl:px-5 px-1 flex items-center ">
-            <div className="bg-test2 w-full lg:pl-[70px] px-5">
+            <div className="w-full lg:pl-[70px] px-5">
               <div className="py-1 mb-1">
                 <h1 className="md:text-5xl text-4xl py-1 my-1 font-bold">
                   Laughing Coyote Dev
